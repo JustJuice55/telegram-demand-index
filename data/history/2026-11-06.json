@@ -1,15 +1,15 @@
 {
- "computedAt": "2026-11-06T01:30:06.449577+00:00",
+ "computedAt": "2026-11-06T01:40:05.575147+00:00",
  "windowDays": 7,
  "method": "unique request texts in public Telegram chats that pass the same acceptance gate as paid leads (no ads, sellers, bots or mass mailings); a repost counts once, in the week it was last posted; not unique people; country from the request, else from the chat",
  "items": [
   {
    "country": "ru",
    "niche": "services",
-   "requests7d": 12606,
-   "requestsPrev7d": 5859,
-   "requests30d": 36906,
-   "chats": 4713,
+   "requests7d": 12695,
+   "requestsPrev7d": 5856,
+   "requests30d": 36994,
+   "chats": 4722,
    "topChats": [
     {
      "username": "boevayaclassica_baraholka",
@@ -31,45 +31,45 @@
   {
    "country": "ru",
    "niche": "goods",
-   "requests7d": 8647,
-   "requestsPrev7d": 3724,
-   "requests30d": 26887,
-   "chats": 2516,
+   "requests7d": 8699,
+   "requestsPrev7d": 3723,
+   "requests30d": 26937,
+   "chats": 2522,
    "topChats": [
     {
      "username": "gorbushkin_ru",
      "title": "gorbushkin_ru",
-     "requests30d": 2500
+     "requests30d": 2509
     },
     {
      "username": "grand_rynok",
      "title": "grand_rynok",
-     "requests30d": 1321
+     "requests30d": 1322
     },
     {
      "username": "arzmarket_vice",
      "title": "arzmarket_vice",
-     "requests30d": 1184
+     "requests30d": 1185
     }
    ]
   },
   {
    "country": "uz",
    "niche": "freight",
-   "requests7d": 5627,
-   "requestsPrev7d": 2388,
-   "requests30d": 18488,
+   "requests7d": 5630,
+   "requestsPrev7d": 2387,
+   "requests30d": 18489,
    "chats": 198,
    "topChats": [
     {
      "username": "yuk_markazi_gruupa",
      "title": "yuk_markazi_gruupa",
-     "requests30d": 3720
+     "requests30d": 3721
     },
     {
      "username": "zakasmuzikkkk",
      "title": "zakasmuzikkkk",
-     "requests30d": 1785
+     "requests30d": 1784
     },
     {
      "username": "yuk_tashuvchi",
@@ -81,15 +81,15 @@
   {
    "country": "ru",
    "niche": "jobs",
-   "requests7d": 5512,
+   "requests7d": 5532,
    "requestsPrev7d": 2326,
-   "requests30d": 15716,
+   "requests30d": 15737,
    "chats": 2525,
    "topChats": [
     {
      "username": "wwwkgru",
      "title": "wwwkgru",
-     "requests30d": 527
+     "requests30d": 528
     },
     {
      "username": "the_food_industry_moscow",
@@ -106,20 +106,20 @@
   {
    "country": "uz",
    "niche": "services",
-   "requests7d": 4018,
-   "requestsPrev7d": 1958,
-   "requests30d": 11034,
-   "chats": 917,
+   "requests7d": 4051,
+   "requestsPrev7d": 1957,
+   "requests30d": 11067,
+   "chats": 920,
    "topChats": [
     {
      "username": "kukdalasity",
      "title": "kukdalasity",
-     "requests30d": 1485
+     "requests30d": 1488
     },
     {
      "username": "toshken_gul_taksistlari",
      "title": "toshken_gul_taksistlari",
-     "requests30d": 580
+     "requests30d": 581
     },
     {
      "username": "termiz_denov_uzun_taksi_m41",
@@ -131,35 +131,35 @@
   {
    "country": "sg",
    "niche": "services",
-   "requests7d": 3589,
-   "requestsPrev7d": 1750,
-   "requests30d": 10015,
-   "chats": 38,
+   "requests7d": 3587,
+   "requestsPrev7d": 1739,
+   "requests30d": 9990,
+   "chats": 39,
    "topChats": [
     {
      "username": "sgphitch",
      "title": "sgphitch",
-     "requests30d": 3318
+     "requests30d": 3305
     },
     {
      "username": "hitchsg",
      "title": "hitchsg",
-     "requests30d": 2388
+     "requests30d": 2378
     },
     {
      "username": "sghitch",
      "title": "sghitch",
-     "requests30d": 1785
+     "requests30d": 1781
     }
    ]
   },
   {
    "country": "ua",
    "niche": "services",
-   "requests7d": 2602,
-   "requestsPrev7d": 1139,
-   "requests30d": 5917,
-   "chats": 608,
+   "requests7d": 2620,
+   "requestsPrev7d": 1143,
+   "requests30d": 5939,
+   "chats": 612,
    "topChats": [
     {
      "username": "search_buy",
@@ -169,22 +169,22 @@
     {
      "username": "berdiansk_me",
      "title": "berdiansk_me",
-     "requests30d": 226
+     "requests30d": 227
     },
     {
      "username": "blablacarnikopol",
      "title": "blablacarnikopol",
-     "requests30d": 198
+     "requests30d": 199
     }
    ]
   },
   {
    "country": "uz",
    "niche": "goods",
-   "requests7d": 1836,
-   "requestsPrev7d": 997,
-   "requests30d": 5643,
-   "chats": 758,
+   "requests7d": 1871,
+   "requestsPrev7d": 998,
+   "requests30d": 5677,
+   "chats": 759,
    "topChats": [
     {
      "username": "arm_database",
@@ -206,15 +206,15 @@
   {
    "country": "by",
    "niche": "services",
-   "requests7d": 1580,
-   "requestsPrev7d": 689,
-   "requests30d": 4558,
-   "chats": 209,
+   "requests7d": 1587,
+   "requestsPrev7d": 690,
+   "requests30d": 4565,
+   "chats": 211,
    "topChats": [
     {
      "username": "granica_bypl",
      "title": "granica_bypl",
-     "requests30d": 920
+     "requests30d": 921
     },
     {
      "username": "belgranica",
@@ -231,9 +231,9 @@
   {
    "country": "th",
    "niche": "services",
-   "requests7d": 1478,
+   "requests7d": 1481,
    "requestsPrev7d": 608,
-   "requests30d": 4535,
+   "requests30d": 4538,
    "chats": 370,
    "topChats": [
     {
@@ -256,10 +256,10 @@
   {
    "country": "tr",
    "niche": "services",
-   "requests7d": 1470,
-   "requestsPrev7d": 770,
-   "requests30d": 5536,
-   "chats": 514,
+   "requests7d": 1476,
+   "requestsPrev7d": 769,
+   "requests30d": 5541,
+   "chats": 516,
    "topChats": [
     {
      "username": "russiansinturkey_antalya",
@@ -281,9 +281,9 @@
   {
    "country": "vn",
    "niche": "services",
-   "requests7d": 1400,
-   "requestsPrev7d": 775,
-   "requests30d": 5212,
+   "requests7d": 1401,
+   "requestsPrev7d": 776,
+   "requests30d": 5214,
    "chats": 234,
    "topChats": [
     {
@@ -306,10 +306,10 @@
   {
    "country": "ru",
    "niche": "real-estate",
-   "requests7d": 1179,
+   "requests7d": 1185,
    "requestsPrev7d": 521,
-   "requests30d": 3446,
-   "chats": 711,
+   "requests30d": 3453,
+   "chats": 714,
    "topChats": [
     {
      "username": "grand_rynok",
@@ -331,15 +331,15 @@
   {
    "country": "ae",
    "niche": "services",
-   "requests7d": 1141,
-   "requestsPrev7d": 573,
-   "requests30d": 3863,
+   "requests7d": 1145,
+   "requestsPrev7d": 572,
+   "requests30d": 3867,
    "chats": 193,
    "topChats": [
     {
      "username": "taxi_indubai",
      "title": "taxi_indubai",
-     "requests30d": 988
+     "requests30d": 989
     },
     {
      "username": "kazakhindubai",
@@ -349,17 +349,17 @@
     {
      "username": "chat_dubai_group",
      "title": "chat_dubai_group",
-     "requests30d": 285
+     "requests30d": 286
     }
    ]
   },
   {
    "country": "ru",
    "niche": "freight",
-   "requests7d": 1077,
-   "requestsPrev7d": 500,
-   "requests30d": 5162,
-   "chats": 475,
+   "requests7d": 1080,
+   "requestsPrev7d": 501,
+   "requests30d": 5165,
+   "chats": 476,
    "topChats": [
     {
      "username": "zakasmuzikkkk",
@@ -381,40 +381,40 @@
   {
    "country": "kg",
    "niche": "services",
-   "requests7d": 1027,
+   "requests7d": 1032,
    "requestsPrev7d": 426,
-   "requests30d": 2371,
+   "requests30d": 2376,
    "chats": 60,
    "topChats": [
     {
      "username": "pharmacysearch",
      "title": "pharmacysearch",
-     "requests30d": 1700
+     "requests30d": 1702
     },
     {
      "username": "advtusa",
      "title": "advtusa",
-     "requests30d": 300
+     "requests30d": 301
     },
     {
      "username": "smmspecialisty",
      "title": "smmspecialisty",
-     "requests30d": 184
+     "requests30d": 186
     }
    ]
   },
   {
    "country": "de",
    "niche": "services",
-   "requests7d": 984,
+   "requests7d": 993,
    "requestsPrev7d": 497,
-   "requests30d": 3757,
-   "chats": 322,
+   "requests30d": 3766,
+   "chats": 323,
    "topChats": [
     {
      "username": "germaniyadagi_uzbeklarr",
      "title": "germaniyadagi_uzbeklarr",
-     "requests30d": 234
+     "requests30d": 235
     },
     {
      "username": "ukr_augsburg_help",
@@ -431,10 +431,10 @@
   {
    "country": "ua",
    "niche": "goods",
-   "requests7d": 960,
-   "requestsPrev7d": 513,
-   "requests30d": 2616,
-   "chats": 402,
+   "requests7d": 965,
+   "requestsPrev7d": 514,
+   "requests30d": 2622,
+   "chats": 403,
    "topChats": [
     {
      "username": "berdiansk_me",
@@ -456,9 +456,9 @@
   {
    "country": "tr",
    "niche": "goods",
-   "requests7d": 945,
+   "requests7d": 946,
    "requestsPrev7d": 510,
-   "requests30d": 3252,
+   "requests30d": 3253,
    "chats": 356,
    "topChats": [
     {
@@ -481,10 +481,10 @@
   {
    "country": "ua",
    "niche": "jobs",
-   "requests7d": 807,
-   "requestsPrev7d": 317,
-   "requests30d": 2170,
-   "chats": 444,
+   "requests7d": 811,
+   "requestsPrev7d": 318,
+   "requests30d": 2175,
+   "chats": 446,
    "topChats": [
     {
      "username": "riznorobohi",
@@ -506,9 +506,9 @@
   {
    "country": "id",
    "niche": "services",
-   "requests7d": 706,
+   "requests7d": 705,
    "requestsPrev7d": 347,
-   "requests30d": 2607,
+   "requests30d": 2606,
    "chats": 189,
    "topChats": [
     {
@@ -531,10 +531,10 @@
   {
    "country": "uz",
    "niche": "jobs",
-   "requests7d": 630,
+   "requests7d": 635,
    "requestsPrev7d": 277,
-   "requests30d": 1748,
-   "chats": 392,
+   "requests30d": 1753,
+   "chats": 393,
    "topChats": [
     {
      "username": "kukdalasity",
@@ -544,7 +544,7 @@
     {
      "username": "workinrestaurant",
      "title": "workinrestaurant",
-     "requests30d": 106
+     "requests30d": 107
     },
     {
      "username": "restoranishuz",
@@ -557,8 +557,8 @@
    "country": "vn",
    "niche": "goods",
    "requests7d": 627,
-   "requestsPrev7d": 327,
-   "requests30d": 2410,
+   "requestsPrev7d": 326,
+   "requests30d": 2409,
    "chats": 165,
    "topChats": [
     {
@@ -581,8 +581,8 @@
   {
    "country": "cn",
    "niche": "services",
-   "requests7d": 444,
-   "requestsPrev7d": 276,
+   "requests7d": 445,
+   "requestsPrev7d": 273,
    "requests30d": 1592,
    "chats": 98,
    "topChats": [
@@ -594,7 +594,7 @@
     {
      "username": "china_hotels_travelask",
      "title": "china_hotels_travelask",
-     "requests30d": 233
+     "requests30d": 234
     },
     {
      "username": "guangzhouchina",
@@ -606,9 +606,9 @@
   {
    "country": "tr",
    "niche": "real-estate",
-   "requests7d": 442,
+   "requests7d": 444,
    "requestsPrev7d": 251,
-   "requests30d": 1738,
+   "requests30d": 1740,
    "chats": 222,
    "topChats": [
     {
@@ -631,9 +631,9 @@
   {
    "country": "de",
    "niche": "goods",
-   "requests7d": 441,
+   "requests7d": 442,
    "requestsPrev7d": 210,
-   "requests30d": 1390,
+   "requests30d": 1391,
    "chats": 182,
    "topChats": [
     {
@@ -656,10 +656,10 @@
   {
    "country": "uz",
    "niche": "real-estate",
-   "requests7d": 439,
-   "requestsPrev7d": 193,
-   "requests30d": 1034,
-   "chats": 225,
+   "requests7d": 440,
+   "requestsPrev7d": 194,
+   "requests30d": 1036,
+   "chats": 226,
    "topChats": [
     {
      "username": "kvartira_termiz_kvartir",
@@ -681,9 +681,9 @@
   {
    "country": "us",
    "niche": "services",
-   "requests7d": 406,
-   "requestsPrev7d": 212,
-   "requests30d": 1417,
+   "requests7d": 407,
+   "requestsPrev7d": 213,
+   "requests30d": 1419,
    "chats": 255,
    "topChats": [
     {
@@ -706,15 +706,15 @@
   {
    "country": "sa",
    "niche": "services",
-   "requests7d": 402,
+   "requests7d": 405,
    "requestsPrev7d": 186,
-   "requests30d": 1348,
+   "requests30d": 1351,
    "chats": 21,
    "topChats": [
     {
      "username": "saudiyaxizmatlar",
      "title": "saudiyaxizmatlar",
-     "requests30d": 846
+     "requests30d": 849
     },
     {
      "username": "saudiaru",
@@ -731,9 +731,9 @@
   {
    "country": "rs",
    "niche": "services",
-   "requests7d": 390,
+   "requests7d": 393,
    "requestsPrev7d": 217,
-   "requests30d": 1414,
+   "requests30d": 1417,
    "chats": 79,
    "topChats": [
     {
@@ -756,15 +756,15 @@
   {
    "country": "pl",
    "niche": "services",
-   "requests7d": 381,
+   "requests7d": 384,
    "requestsPrev7d": 223,
-   "requests30d": 1456,
+   "requests30d": 1459,
    "chats": 135,
    "topChats": [
     {
      "username": "granica_by_lt_pl",
      "title": "granica_by_lt_pl",
-     "requests30d": 479
+     "requests30d": 481
     },
     {
      "username": "terespol",
@@ -781,9 +781,9 @@
   {
    "country": "by",
    "niche": "jobs",
-   "requests7d": 381,
+   "requests7d": 382,
    "requestsPrev7d": 68,
-   "requests30d": 925,
+   "requests30d": 926,
    "chats": 47,
    "topChats": [
     {
@@ -831,10 +831,10 @@
   {
    "country": "id",
    "niche": "goods",
-   "requests7d": 355,
-   "requestsPrev7d": 190,
-   "requests30d": 1196,
-   "chats": 209,
+   "requests7d": 356,
+   "requestsPrev7d": 189,
+   "requests30d": 1198,
+   "chats": 210,
    "topChats": [
     {
      "username": "balichat",
@@ -856,10 +856,10 @@
   {
    "country": "es",
    "niche": "services",
-   "requests7d": 341,
+   "requests7d": 344,
    "requestsPrev7d": 167,
-   "requests30d": 1258,
-   "chats": 117,
+   "requests30d": 1261,
+   "chats": 118,
    "topChats": [
     {
      "username": "amigosalicanteucrania",
@@ -874,16 +874,16 @@
     {
      "username": "vecinos_alicante",
      "title": "vecinos_alicante",
-     "requests30d": 98
+     "requests30d": 99
     }
    ]
   },
   {
    "country": "me",
    "niche": "services",
-   "requests7d": 333,
+   "requests7d": 334,
    "requestsPrev7d": 190,
-   "requests30d": 1341,
+   "requests30d": 1342,
    "chats": 43,
    "topChats": [
     {
@@ -899,47 +899,22 @@
     {
      "username": "vhercegnovi",
      "title": "vhercegnovi",
-     "requests30d": 157
-    }
-   ]
-  },
-  {
-   "country": "cy",
-   "niche": "services",
-   "requests7d": 328,
-   "requestsPrev7d": 166,
-   "requests30d": 1112,
-   "chats": 65,
-   "topChats": [
-    {
-     "username": "uacyprus",
-     "title": "uacyprus",
-     "requests30d": 216
-    },
-    {
-     "username": "cuprushelpers",
-     "title": "cuprushelpers",
-     "requests30d": 213
-    },
-    {
-     "username": "cyprus_femchat",
-     "title": "cyprus_femchat",
-     "requests30d": 161
+     "requests30d": 158
     }
    ]
   },
   {
    "country": "eg",
    "niche": "services",
-   "requests7d": 323,
+   "requests7d": 330,
    "requestsPrev7d": 174,
-   "requests30d": 1214,
+   "requests30d": 1221,
    "chats": 48,
    "topChats": [
     {
      "username": "egypt_hotels_travelask",
      "title": "egypt_hotels_travelask",
-     "requests30d": 617
+     "requests30d": 619
     },
     {
      "username": "dahabchat",
@@ -954,11 +929,36 @@
    ]
   },
   {
+   "country": "cy",
+   "niche": "services",
+   "requests7d": 329,
+   "requestsPrev7d": 166,
+   "requests30d": 1113,
+   "chats": 65,
+   "topChats": [
+    {
+     "username": "uacyprus",
+     "title": "uacyprus",
+     "requests30d": 217
+    },
+    {
+     "username": "cuprushelpers",
+     "title": "cuprushelpers",
+     "requests30d": 213
+    },
+    {
+     "username": "cyprus_femchat",
+     "title": "cyprus_femchat",
+     "requests30d": 161
+    }
+   ]
+  },
+  {
    "country": "ae",
    "niche": "real-estate",
-   "requests7d": 321,
+   "requests7d": 322,
    "requestsPrev7d": 225,
-   "requests30d": 1441,
+   "requests30d": 1442,
    "chats": 119,
    "topChats": [
     {
@@ -975,6 +975,31 @@
      "username": "buyer_request",
      "title": "BUYER REQUESTS 🇦🇪 DUBAI UAE",
      "requests30d": 145
+    }
+   ]
+  },
+  {
+   "country": "it",
+   "niche": "real-estate",
+   "requests7d": 319,
+   "requestsPrev7d": 188,
+   "requests30d": 1389,
+   "chats": 35,
+   "topChats": [
+    {
+     "username": "snginitaly2022",
+     "title": "snginitaly2022",
+     "requests30d": 351
+    },
+    {
+     "username": "ssm2026_affitti",
+     "title": "ssm2026_affitti",
+     "requests30d": 296
+    },
+    {
+     "username": "casestudentitorino",
+     "title": "casestudentitorino",
+     "requests30d": 240
     }
    ]
   },
@@ -1000,31 +1025,6 @@
      "username": "stroitelkz",
      "title": "stroitelkz",
      "requests30d": 57
-    }
-   ]
-  },
-  {
-   "country": "it",
-   "niche": "real-estate",
-   "requests7d": 313,
-   "requestsPrev7d": 188,
-   "requests30d": 1383,
-   "chats": 35,
-   "topChats": [
-    {
-     "username": "snginitaly2022",
-     "title": "snginitaly2022",
-     "requests30d": 351
-    },
-    {
-     "username": "ssm2026_affitti",
-     "title": "ssm2026_affitti",
-     "requests30d": 296
-    },
-    {
-     "username": "casestudentitorino",
-     "title": "casestudentitorino",
-     "requests30d": 238
     }
    ]
   },
@@ -1081,10 +1081,10 @@
   {
    "country": "ua",
    "niche": "real-estate",
-   "requests7d": 273,
+   "requests7d": 277,
    "requestsPrev7d": 125,
-   "requests30d": 654,
-   "chats": 153,
+   "requests30d": 658,
+   "chats": 155,
    "topChats": [
     {
      "username": "berdiansk_me",
@@ -1099,16 +1099,16 @@
     {
      "username": "hternovka",
      "title": "hternovka",
-     "requests30d": 33
+     "requests30d": 34
     }
    ]
   },
   {
    "country": "in",
    "niche": "services",
-   "requests7d": 262,
-   "requestsPrev7d": 122,
-   "requests30d": 743,
+   "requests7d": 263,
+   "requestsPrev7d": 123,
+   "requests30d": 745,
    "chats": 130,
    "topChats": [
     {
@@ -1131,10 +1131,10 @@
   {
    "country": "th",
    "niche": "real-estate",
-   "requests7d": 256,
+   "requests7d": 258,
    "requestsPrev7d": 115,
-   "requests30d": 904,
-   "chats": 185,
+   "requests30d": 905,
+   "chats": 186,
    "topChats": [
     {
      "username": "housepattayago",
@@ -1158,13 +1158,13 @@
    "niche": "real-estate",
    "requests7d": 252,
    "requestsPrev7d": 152,
-   "requests30d": 1025,
+   "requests30d": 1024,
    "chats": 117,
    "topChats": [
     {
      "username": "rent_vietnam",
      "title": "rent_vietnam",
-     "requests30d": 228
+     "requests30d": 227
     },
     {
      "username": "phu_quoc_vietnam",
@@ -1181,15 +1181,15 @@
   {
    "country": "kg",
    "niche": "goods",
-   "requests7d": 247,
+   "requests7d": 248,
    "requestsPrev7d": 181,
-   "requests30d": 1023,
+   "requests30d": 1024,
    "chats": 43,
    "topChats": [
     {
      "username": "pharmacysearch",
      "title": "pharmacysearch",
-     "requests30d": 776
+     "requests30d": 777
     },
     {
      "username": "bayer_helper_dordoi",
@@ -1206,9 +1206,9 @@
   {
    "country": "ph",
    "niche": "goods",
-   "requests7d": 231,
+   "requests7d": 232,
    "requestsPrev7d": 81,
-   "requests30d": 389,
+   "requests30d": 390,
    "chats": 34,
    "topChats": [
     {
@@ -1229,10 +1229,35 @@
    ]
   },
   {
+   "country": "kz",
+   "niche": "goods",
+   "requests7d": 228,
+   "requestsPrev7d": 84,
+   "requests30d": 601,
+   "chats": 119,
+   "topChats": [
+    {
+     "username": "chat1darsi",
+     "title": "chat1darsi",
+     "requests30d": 46
+    },
+    {
+     "username": "pinduoduotechchat",
+     "title": "pinduoduotechchat",
+     "requests30d": 43
+    },
+    {
+     "username": "itbazarkz",
+     "title": "itbazarkz",
+     "requests30d": 34
+    }
+   ]
+  },
+  {
    "country": "cn",
    "niche": "goods",
-   "requests7d": 226,
-   "requestsPrev7d": 109,
+   "requests7d": 225,
+   "requestsPrev7d": 110,
    "requests30d": 706,
    "chats": 52,
    "topChats": [
@@ -1250,31 +1275,6 @@
      "username": "chinasfh",
      "title": "chinasfh",
      "requests30d": 62
-    }
-   ]
-  },
-  {
-   "country": "kz",
-   "niche": "goods",
-   "requests7d": 226,
-   "requestsPrev7d": 84,
-   "requests30d": 599,
-   "chats": 118,
-   "topChats": [
-    {
-     "username": "chat1darsi",
-     "title": "chat1darsi",
-     "requests30d": 45
-    },
-    {
-     "username": "pinduoduotechchat",
-     "title": "pinduoduotechchat",
-     "requests30d": 43
-    },
-    {
-     "username": "itbazarkz",
-     "title": "itbazarkz",
-     "requests30d": 34
     }
    ]
   },
@@ -1306,9 +1306,9 @@
   {
    "country": "de",
    "niche": "real-estate",
-   "requests7d": 217,
+   "requests7d": 218,
    "requestsPrev7d": 93,
-   "requests30d": 775,
+   "requests30d": 776,
    "chats": 128,
    "topChats": [
     {
@@ -1331,15 +1331,15 @@
   {
    "country": "id",
    "niche": "real-estate",
-   "requests7d": 199,
+   "requests7d": 201,
    "requestsPrev7d": 110,
-   "requests30d": 804,
-   "chats": 40,
+   "requests30d": 805,
+   "chats": 41,
    "topChats": [
     {
      "username": "balichatarenda",
      "title": "balichatarenda",
-     "requests30d": 410
+     "requests30d": 411
     },
     {
      "username": "balichatroommates",
@@ -1349,7 +1349,7 @@
     {
      "username": "balichat",
      "title": "balichat",
-     "requests30d": 81
+     "requests30d": 80
     }
    ]
   },
@@ -1406,9 +1406,9 @@
   {
    "country": "ph",
    "niche": "services",
-   "requests7d": 183,
+   "requests7d": 185,
    "requestsPrev7d": 68,
-   "requests30d": 381,
+   "requests30d": 383,
    "chats": 38,
    "topChats": [
     {
@@ -1431,15 +1431,15 @@
   {
    "country": "by",
    "niche": "real-estate",
-   "requests7d": 176,
+   "requests7d": 178,
    "requestsPrev7d": 100,
-   "requests30d": 318,
-   "chats": 28,
+   "requests30d": 320,
+   "chats": 29,
    "topChats": [
     {
      "username": "kvartira_minsk_by",
      "title": "kvartira_minsk_by",
-     "requests30d": 187
+     "requests30d": 188
     },
     {
      "username": "flattylocals",
@@ -1456,9 +1456,9 @@
   {
    "country": "us",
    "niche": "jobs",
-   "requests7d": 170,
-   "requestsPrev7d": 88,
-   "requests30d": 562,
+   "requests7d": 171,
+   "requestsPrev7d": 87,
+   "requests30d": 563,
    "chats": 170,
    "topChats": [
     {
@@ -1479,11 +1479,36 @@
    ]
   },
   {
+   "country": "it",
+   "niche": "services",
+   "requests7d": 167,
+   "requestsPrev7d": 76,
+   "requests30d": 568,
+   "chats": 65,
+   "topChats": [
+    {
+     "username": "snginitaly2022",
+     "title": "snginitaly2022",
+     "requests30d": 197
+    },
+    {
+     "username": "russiansin_italy",
+     "title": "russiansin_italy",
+     "requests30d": 56
+    },
+    {
+     "username": "uzbekstudentsinitaly",
+     "title": "uzbekstudentsinitaly",
+     "requests30d": 44
+    }
+   ]
+  },
+  {
    "country": "lk",
    "niche": "services",
-   "requests7d": 165,
+   "requests7d": 166,
    "requestsPrev7d": 81,
-   "requests30d": 573,
+   "requests30d": 574,
    "chats": 42,
    "topChats": [
     {
@@ -1529,35 +1554,10 @@
    ]
   },
   {
-   "country": "it",
-   "niche": "services",
-   "requests7d": 164,
-   "requestsPrev7d": 76,
-   "requests30d": 565,
-   "chats": 65,
-   "topChats": [
-    {
-     "username": "snginitaly2022",
-     "title": "snginitaly2022",
-     "requests30d": 197
-    },
-    {
-     "username": "russiansin_italy",
-     "title": "russiansin_italy",
-     "requests30d": 55
-    },
-    {
-     "username": "uzbekstudentsinitaly",
-     "title": "uzbekstudentsinitaly",
-     "requests30d": 44
-    }
-   ]
-  },
-  {
    "country": "kg",
    "niche": "jobs",
-   "requests7d": 162,
-   "requestsPrev7d": 79,
+   "requests7d": 161,
+   "requestsPrev7d": 80,
    "requests30d": 534,
    "chats": 42,
    "topChats": [
@@ -1606,15 +1606,15 @@
   {
    "country": "ae",
    "niche": "goods",
-   "requests7d": 152,
+   "requests7d": 154,
    "requestsPrev7d": 86,
-   "requests30d": 615,
+   "requests30d": 617,
    "chats": 88,
    "topChats": [
     {
      "username": "kazakhindubai",
      "title": "kazakhindubai",
-     "requests30d": 135
+     "requests30d": 136
     },
     {
      "username": "chat_dubai_group",
@@ -1625,6 +1625,31 @@
      "username": "dubai_chat_russia",
      "title": "dubai_chat_russia",
      "requests30d": 58
+    }
+   ]
+  },
+  {
+   "country": "us",
+   "niche": "real-estate",
+   "requests7d": 143,
+   "requestsPrev7d": 77,
+   "requests30d": 424,
+   "chats": 78,
+   "topChats": [
+    {
+     "username": "dallasaccommodationsonly",
+     "title": "dallasaccommodationsonly",
+     "requests30d": 80
+    },
+    {
+     "username": "texaschapter",
+     "title": "texaschapter",
+     "requests30d": 38
+    },
+    {
+     "username": "nychatik",
+     "title": "nychatik",
+     "requests30d": 21
     }
    ]
   },
@@ -1650,31 +1675,6 @@
      "username": "erevanmoms",
      "title": "erevanmoms",
      "requests30d": 45
-    }
-   ]
-  },
-  {
-   "country": "us",
-   "niche": "real-estate",
-   "requests7d": 141,
-   "requestsPrev7d": 77,
-   "requests30d": 422,
-   "chats": 78,
-   "topChats": [
-    {
-     "username": "dallasaccommodationsonly",
-     "title": "dallasaccommodationsonly",
-     "requests30d": 78
-    },
-    {
-     "username": "texaschapter",
-     "title": "texaschapter",
-     "requests30d": 38
-    },
-    {
-     "username": "nychatik",
-     "title": "nychatik",
-     "requests30d": 21
     }
    ]
   },
@@ -1731,15 +1731,15 @@
   {
    "country": "kg",
    "niche": "real-estate",
-   "requests7d": 119,
+   "requests7d": 120,
    "requestsPrev7d": 50,
-   "requests30d": 214,
+   "requests30d": 215,
    "chats": 18,
    "topChats": [
     {
      "username": "kvartira_bishkekkg",
      "title": "kvartira_bishkekkg",
-     "requests30d": 136
+     "requests30d": 137
     },
     {
      "username": "rent_kg_chat",
@@ -1956,8 +1956,8 @@
   {
    "country": "rs",
    "niche": "goods",
-   "requests7d": 92,
-   "requestsPrev7d": 57,
+   "requests7d": 91,
+   "requestsPrev7d": 58,
    "requests30d": 458,
    "chats": 50,
    "topChats": [
@@ -1981,10 +1981,10 @@
   {
    "country": "fr",
    "niche": "services",
-   "requests7d": 88,
+   "requests7d": 89,
    "requestsPrev7d": 50,
-   "requests30d": 364,
-   "chats": 53,
+   "requests30d": 365,
+   "chats": 54,
    "topChats": [
     {
      "username": "russiansin_paris",
@@ -2131,15 +2131,15 @@
   {
    "country": "it",
    "niche": "goods",
-   "requests7d": 76,
+   "requests7d": 77,
    "requestsPrev7d": 26,
-   "requests30d": 226,
+   "requests30d": 227,
    "chats": 54,
    "topChats": [
     {
      "username": "pkmnmillennium",
      "title": "pkmnmillennium",
-     "requests30d": 55
+     "requests30d": 56
     },
     {
      "username": "mercatinogiochidatavolo",
@@ -2329,27 +2329,27 @@
    ]
   },
   {
-   "country": "ca",
-   "niche": "services",
+   "country": "tr",
+   "niche": "freight",
    "requests7d": 64,
-   "requestsPrev7d": 39,
+   "requestsPrev7d": 24,
    "requests30d": 217,
-   "chats": 33,
+   "chats": 79,
    "topChats": [
     {
-     "username": "prcuaet",
-     "title": "prcuaet",
-     "requests30d": 66
+     "username": "kazakhinturkey",
+     "title": "kazakhinturkey",
+     "requests30d": 26
     },
     {
-     "username": "uu_calgary",
-     "title": "uu_calgary",
-     "requests30d": 52
+     "username": "kazakhivstambule",
+     "title": "kazakhivstambule",
+     "requests30d": 12
     },
     {
-     "username": "firstukrnl",
-     "title": "firstukrnl",
-     "requests30d": 20
+     "username": "kavkaz_gruzi",
+     "title": "kavkaz_gruzi",
+     "requests30d": 12
     }
    ]
   },
@@ -2379,27 +2379,27 @@
    ]
   },
   {
-   "country": "tr",
-   "niche": "freight",
+   "country": "ca",
+   "niche": "services",
    "requests7d": 63,
-   "requestsPrev7d": 24,
-   "requests30d": 216,
-   "chats": 79,
+   "requestsPrev7d": 40,
+   "requests30d": 217,
+   "chats": 33,
    "topChats": [
     {
-     "username": "kazakhinturkey",
-     "title": "kazakhinturkey",
-     "requests30d": 26
+     "username": "prcuaet",
+     "title": "prcuaet",
+     "requests30d": 66
     },
     {
-     "username": "kavkaz_gruzi",
-     "title": "kavkaz_gruzi",
-     "requests30d": 12
+     "username": "uu_calgary",
+     "title": "uu_calgary",
+     "requests30d": 52
     },
     {
-     "username": "kazakhivstambule",
-     "title": "kazakhivstambule",
-     "requests30d": 11
+     "username": "firstukrnl",
+     "title": "firstukrnl",
+     "requests30d": 20
     }
    ]
   },
@@ -2504,6 +2504,31 @@
    ]
   },
   {
+   "country": "sg",
+   "niche": "jobs",
+   "requests7d": 58,
+   "requestsPrev7d": 32,
+   "requests30d": 202,
+   "chats": 8,
+   "topChats": [
+    {
+     "username": "sgparcels",
+     "title": "sgparcels",
+     "requests30d": 179
+    },
+    {
+     "username": "modelssg",
+     "title": "modelssg",
+     "requests30d": 16
+    },
+    {
+     "username": "sghitch",
+     "title": "sghitch",
+     "requests30d": 2
+    }
+   ]
+  },
+  {
    "country": "rs",
    "niche": "real-estate",
    "requests7d": 58,
@@ -2525,31 +2550,6 @@
      "username": "kuce_beograd",
      "title": "kuce_beograd",
      "requests30d": 14
-    }
-   ]
-  },
-  {
-   "country": "sg",
-   "niche": "jobs",
-   "requests7d": 57,
-   "requestsPrev7d": 32,
-   "requests30d": 201,
-   "chats": 8,
-   "topChats": [
-    {
-     "username": "sgparcels",
-     "title": "sgparcels",
-     "requests30d": 178
-    },
-    {
-     "username": "modelssg",
-     "title": "modelssg",
-     "requests30d": 16
-    },
-    {
-     "username": "sghitch",
-     "title": "sghitch",
-     "requests30d": 2
     }
    ]
   },
@@ -2631,10 +2631,10 @@
   {
    "country": "bg",
    "niche": "real-estate",
-   "requests7d": 50,
+   "requests7d": 51,
    "requestsPrev7d": 31,
-   "requests30d": 207,
-   "chats": 37,
+   "requests30d": 208,
+   "chats": 38,
    "topChats": [
     {
      "username": "ukraina_bulgaria",
@@ -2779,6 +2779,31 @@
    ]
   },
   {
+   "country": "hu",
+   "niche": "services",
+   "requests7d": 45,
+   "requestsPrev7d": 9,
+   "requests30d": 124,
+   "chats": 16,
+   "topChats": [
+    {
+     "username": "helpukraine_hungary",
+     "title": "helpukraine_hungary",
+     "requests30d": 34
+    },
+    {
+     "username": "budapestchatik",
+     "title": "budapestchatik",
+     "requests30d": 23
+    },
+    {
+     "username": "sh_kg",
+     "title": "sh_kg",
+     "requests30d": 19
+    }
+   ]
+  },
+  {
    "country": "th",
    "niche": "jobs",
    "requests7d": 44,
@@ -2804,36 +2829,11 @@
    ]
   },
   {
-   "country": "hu",
-   "niche": "services",
-   "requests7d": 43,
-   "requestsPrev7d": 9,
-   "requests30d": 122,
-   "chats": 16,
-   "topChats": [
-    {
-     "username": "helpukraine_hungary",
-     "title": "helpukraine_hungary",
-     "requests30d": 34
-    },
-    {
-     "username": "budapestchatik",
-     "title": "budapestchatik",
-     "requests30d": 23
-    },
-    {
-     "username": "sh_kg",
-     "title": "sh_kg",
-     "requests30d": 17
-    }
-   ]
-  },
-  {
    "country": "sg",
    "niche": "goods",
-   "requests7d": 42,
+   "requests7d": 43,
    "requestsPrev7d": 13,
-   "requests30d": 130,
+   "requests30d": 131,
    "chats": 25,
    "topChats": [
     {
@@ -2849,7 +2849,7 @@
     {
      "username": "xmaxsingapuramarketplace",
      "title": "xmaxsingapuramarketplace",
-     "requests30d": 13
+     "requests30d": 14
     }
    ]
   },
@@ -2929,6 +2929,31 @@
    ]
   },
   {
+   "country": "kz",
+   "niche": "real-estate",
+   "requests7d": 38,
+   "requestsPrev7d": 23,
+   "requests30d": 166,
+   "chats": 32,
+   "topChats": [
+    {
+     "username": "kvartirant_kosshy",
+     "title": "kvartirant_kosshy",
+     "requests30d": 58
+    },
+    {
+     "username": "zhilio",
+     "title": "zhilio",
+     "requests30d": 21
+    },
+    {
+     "username": "kbtuhousing",
+     "title": "kbtuhousing",
+     "requests30d": 13
+    }
+   ]
+  },
+  {
    "country": "am",
    "niche": "goods",
    "requests7d": 38,
@@ -2958,13 +2983,13 @@
    "niche": "jobs",
    "requests7d": 38,
    "requestsPrev7d": 11,
-   "requests30d": 109,
+   "requests30d": 108,
    "chats": 42,
    "topChats": [
     {
      "username": "corporatesoldiers",
      "title": "corporatesoldiers",
-     "requests30d": 19
+     "requests30d": 18
     },
     {
      "username": "mhroomsindelhi",
@@ -2975,31 +3000,6 @@
      "username": "bangalore_jobs",
      "title": "bangalore_jobs",
      "requests30d": 7
-    }
-   ]
-  },
-  {
-   "country": "kz",
-   "niche": "real-estate",
-   "requests7d": 37,
-   "requestsPrev7d": 23,
-   "requests30d": 165,
-   "chats": 32,
-   "topChats": [
-    {
-     "username": "kvartirant_kosshy",
-     "title": "kvartirant_kosshy",
-     "requests30d": 58
-    },
-    {
-     "username": "zhilio",
-     "title": "zhilio",
-     "requests30d": 20
-    },
-    {
-     "username": "kbtuhousing",
-     "title": "kbtuhousing",
-     "requests30d": 13
     }
    ]
   },
@@ -3057,7 +3057,7 @@
    "country": "eg",
    "niche": "real-estate",
    "requests7d": 36,
-   "requestsPrev7d": 25,
+   "requestsPrev7d": 24,
    "requests30d": 152,
    "chats": 16,
    "topChats": [
@@ -3100,6 +3100,31 @@
      "username": "onlinegreece",
      "title": "onlinegreece",
      "requests30d": 4
+    }
+   ]
+  },
+  {
+   "country": "es",
+   "niche": "jobs",
+   "requests7d": 35,
+   "requestsPrev7d": 24,
+   "requests30d": 118,
+   "chats": 35,
+   "topChats": [
+    {
+     "username": "alicantetop",
+     "title": "alicantetop",
+     "requests30d": 27
+    },
+    {
+     "username": "spainwork",
+     "title": "spainwork",
+     "requests30d": 12
+    },
+    {
+     "username": "cwyjh",
+     "title": "cwyjh",
+     "requests30d": 8
     }
    ]
   },
@@ -3225,31 +3250,6 @@
      "username": "busforyou",
      "title": "busforyou",
      "requests30d": 11
-    }
-   ]
-  },
-  {
-   "country": "es",
-   "niche": "jobs",
-   "requests7d": 33,
-   "requestsPrev7d": 24,
-   "requests30d": 116,
-   "chats": 35,
-   "topChats": [
-    {
-     "username": "alicantetop",
-     "title": "alicantetop",
-     "requests30d": 25
-    },
-    {
-     "username": "spainwork",
-     "title": "spainwork",
-     "requests30d": 12
-    },
-    {
-     "username": "cwyjh",
-     "title": "cwyjh",
-     "requests30d": 8
     }
    ]
   },
@@ -3604,6 +3604,31 @@
    ]
   },
   {
+   "country": "lk",
+   "niche": "real-estate",
+   "requests7d": 21,
+   "requestsPrev7d": 12,
+   "requests30d": 102,
+   "chats": 13,
+   "topChats": [
+    {
+     "username": "shri_lanka_rent",
+     "title": "shri_lanka_rent",
+     "requests30d": 75
+    },
+    {
+     "username": "shri_lanka_ru",
+     "title": "shri_lanka_ru",
+     "requests30d": 11
+    },
+    {
+     "username": "shri_lanka_hikkaduwa",
+     "title": "shri_lanka_hikkaduwa",
+     "requests30d": 3
+    }
+   ]
+  },
+  {
    "country": "bg",
    "niche": "jobs",
    "requests7d": 21,
@@ -3650,31 +3675,6 @@
      "username": "usatrucker",
      "title": "usatrucker",
      "requests30d": 4
-    }
-   ]
-  },
-  {
-   "country": "lk",
-   "niche": "real-estate",
-   "requests7d": 20,
-   "requestsPrev7d": 12,
-   "requests30d": 101,
-   "chats": 13,
-   "topChats": [
-    {
-     "username": "shri_lanka_rent",
-     "title": "shri_lanka_rent",
-     "requests30d": 74
-    },
-    {
-     "username": "shri_lanka_ru",
-     "title": "shri_lanka_ru",
-     "requests30d": 11
-    },
-    {
-     "username": "shri_lanka_hikkaduwa",
-     "title": "shri_lanka_hikkaduwa",
-     "requests30d": 3
     }
    ]
   },
@@ -3729,6 +3729,31 @@
    ]
   },
   {
+   "country": "dk",
+   "niche": "services",
+   "requests7d": 19,
+   "requestsPrev7d": 5,
+   "requests30d": 53,
+   "chats": 5,
+   "topChats": [
+    {
+     "username": "ukrainiandenmark",
+     "title": "ukrainiandenmark",
+     "requests30d": 29
+    },
+    {
+     "username": "denmarktop1",
+     "title": "denmarktop1",
+     "requests30d": 14
+    },
+    {
+     "username": "asylcenterholstebro",
+     "title": "asylcenterholstebro",
+     "requests30d": 5
+    }
+   ]
+  },
+  {
    "country": "at",
    "niche": "real-estate",
    "requests7d": 18,
@@ -3750,31 +3775,6 @@
      "username": "students_austria",
      "title": "students_austria",
      "requests30d": 9
-    }
-   ]
-  },
-  {
-   "country": "dk",
-   "niche": "services",
-   "requests7d": 17,
-   "requestsPrev7d": 5,
-   "requests30d": 51,
-   "chats": 5,
-   "topChats": [
-    {
-     "username": "ukrainiandenmark",
-     "title": "ukrainiandenmark",
-     "requests30d": 27
-    },
-    {
-     "username": "denmarktop1",
-     "title": "denmarktop1",
-     "requests30d": 14
-    },
-    {
-     "username": "asylcenterholstebro",
-     "title": "asylcenterholstebro",
-     "requests30d": 5
     }
    ]
   },
