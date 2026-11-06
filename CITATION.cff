@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+title: "tgden Telegram Demand Index"
+type: dataset
+authors:
+  - name: "tgden"
+    website: "https://tgden.com"
+repository-code: "https://github.com/JustJuice55/telegram-demand-index"
+url: "https://tgden.com"
+license: CC-BY-4.0
+keywords:
+  - telegram
+  - demand
+  - market research
+  - open data
+abstract: "Daily count of requests people post in public Telegram chats, by country and niche (services, goods, real estate, jobs, freight). Ads, sellers, bots and mass mailings excluded."
