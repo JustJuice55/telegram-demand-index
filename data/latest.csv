@@ -1,162 +1,166 @@
 country,country_name,niche,requests7d,requestsPrev7d,requests30d,chats,share7d,sharePrev7d,top_chats,url
-ae,UAE,services,206,1055,3312,175,0.6300,0.6306,taxi_indubai kazakhindubai chat_dubai_group,https://tgden.com/en/intent/services/ae
-ae,UAE,real-estate,72,318,1125,103,0.2202,0.1901,rent_in_dubai kazakhindubai buyer_request,https://tgden.com/en/intent/real-estate/ae
-ae,UAE,goods,30,140,469,78,0.0917,0.0837,kazakhindubai chat_dubai_group dubai_chat_russia,https://tgden.com/en/intent/goods/ae
-ae,UAE,jobs,16,125,347,102,0.0489,0.0747,kazakhindubai igamingjobhub chat_dubai_group,https://tgden.com/en/intent/jobs/ae
-ae,UAE,freight,3,35,132,28,0.0092,0.0209,kazakhindubai uzbeksocietyinuae kyrgysz_in_dubai,https://tgden.com/en/intent/freight/ae
-al,Albania,services,15,94,321,15,0.7500,0.6267,albaniavlore albaniaukraine ukraine_in_durres,https://tgden.com/en/intent/services/al
-al,Albania,goods,5,41,137,9,0.2500,0.2733,albaniavlore albaniaukraine ukraine_in_durres,https://tgden.com/en/intent/goods/al
-al,Albania,real-estate,0,15,51,6,0.0000,0.1000,albaniaukraine ukraine_in_durres albaniavlore,https://tgden.com/en/intent/real-estate/al
-am,Armenia,services,20,148,433,50,0.4545,0.5051,rusarmenia armeniarus_chat erevan12,https://tgden.com/en/intent/services/am
-am,Armenia,real-estate,13,91,400,23,0.2955,0.3106,rent_comissionfree armeniacalling rusarmenia,https://tgden.com/en/intent/real-estate/am
-am,Armenia,goods,7,38,133,25,0.1591,0.1297,rusarmenia dogfriendly_yerevan yerevanplants,https://tgden.com/en/intent/goods/am
-am,Armenia,jobs,4,16,52,18,0.0909,0.0546,rusarmenia castings_am creativityyarmenia,https://tgden.com/en/intent/jobs/am
-ar,Argentina,services,6,59,214,22,0.6667,0.7867,argentinachild rodyvargentine medicina_en_buenosaires,https://tgden.com/en/intent/services/ar
-ar,Argentina,goods,3,16,88,14,0.3333,0.2133,rodyvargentine argentina_dogs argdom,https://tgden.com/en/intent/goods/ar
-at,Austria,services,11,72,182,20,1.0000,1.0000,qgzojezjescwnjzk uobero austriapost,https://tgden.com/en/intent/services/at
-bd,Bangladesh,goods,3,28,63,16,1.0000,1.0000,snbuysellzone greencitynrb zx_safety_buysell,https://tgden.com/en/intent/goods/bd
-bg,Bulgaria,services,54,342,1051,66,0.7714,0.7200,uamominvarna autochat_bulgaria_ukraine solnechniyberegbg,https://tgden.com/en/intent/services/bg
-bg,Bulgaria,goods,11,68,204,24,0.1571,0.1432,uamominvarna solnechniyberegbg varnafree,https://tgden.com/en/intent/goods/bg
-bg,Bulgaria,real-estate,4,40,168,39,0.0571,0.0842,uamominvarna ukraina_bulgaria varnafree,https://tgden.com/en/intent/real-estate/bg
-bg,Bulgaria,jobs,1,25,66,25,0.0143,0.0526,uamominvarna uainplovdiv solnechniyberegbg,https://tgden.com/en/intent/jobs/bg
-br,Brazil,services,17,118,336,25,0.5484,0.6667,brfloripa pochta_brazil brazil_for_you_floripa,https://tgden.com/en/intent/services/br
-br,Brazil,goods,14,59,158,15,0.4516,0.3333,brfloripa baraholka_brazil_for_you brazil_for_you_floripa,https://tgden.com/en/intent/goods/br
-by,Belarus,services,276,1597,4389,203,0.5169,0.6253,granica_bypl belgranica travelersminsk,https://tgden.com/en/intent/services/by
-by,Belarus,goods,174,219,731,87,0.3258,0.0857,lydoman_rb gomel_vaper vapebaracholkam1nsk,https://tgden.com/en/intent/goods/by
-by,Belarus,jobs,42,417,884,55,0.0787,0.1633,rabota_v_minske77 rabota_v_minske1 podrabotka_rabota_v_minske,https://tgden.com/en/intent/jobs/by
-by,Belarus,real-estate,37,169,394,29,0.0693,0.0662,kvartira_minsk_by flattylocals edu_v_belarus,https://tgden.com/en/intent/real-estate/by
-by,Belarus,freight,5,152,321,64,0.0094,0.0595,dostawka_eu_by dl_baraholka travelersminsk,https://tgden.com/en/intent/freight/by
-ca,Canada,services,11,69,205,33,1.0000,1.0000,prcuaet uu_calgary firstukrnl,https://tgden.com/en/intent/services/ca
-ch,Switzerland,services,6,44,134,28,0.6667,0.4356,bernukraine stgallenukraine geneveukraine,https://tgden.com/en/intent/services/ch
-ch,Switzerland,goods,3,57,191,17,0.3333,0.5644,unkommerziellermarktplatzbasel uncommercial_bielbienne unkommerziellermarktsg,https://tgden.com/en/intent/goods/ch
-cn,China,services,30,436,1394,85,0.4000,0.6310,hainan_kitaj china_hotels_travelask guangzhouchina,https://tgden.com/en/intent/services/cn
-cn,China,goods,29,194,611,47,0.3867,0.2808,hainan_kitaj guangzhouchina hunchunonline,https://tgden.com/en/intent/goods/cn
-cn,China,freight,8,39,133,36,0.1067,0.0564,guangzhouchina kaljatchat kz_china,https://tgden.com/en/intent/freight/cn
-cn,China,real-estate,8,22,113,11,0.1067,0.0318,guangzhouchina hainan_kitaj kz_china,https://tgden.com/en/intent/real-estate/cn
-cy,Cyprus,services,42,316,940,54,0.5250,0.4976,uacyprus cuprushelpers cyprus_femchat,https://tgden.com/en/intent/services/cy
-cy,Cyprus,goods,21,74,262,33,0.2625,0.1165,cyprus_femchat cyanimals cyprussale,https://tgden.com/en/intent/goods/cy
-cy,Cyprus,real-estate,11,68,219,28,0.1375,0.1071,uacyprus kibrisogrencileri cyprusprop,https://tgden.com/en/intent/real-estate/cy
-cy,Cyprus,jobs,6,177,370,20,0.0750,0.2787,cyprusithr uacyprus cuprushelpers,https://tgden.com/en/intent/jobs/cy
-cz,Czechia,jobs,7,37,101,27,0.7000,0.4805,oholosennia_czechia prague_official fushka_praga,https://tgden.com/en/intent/jobs/cz
-cz,Czechia,services,3,40,75,33,0.3000,0.5195,plzengroupchat pardubice_chesko chexiyadagiuzbeklar_rasmiy,https://tgden.com/en/intent/services/cz
-de,Germany,services,157,1050,3234,312,0.4743,0.5579,germaniyadagi_uzbeklarr ukr_augsburg_help perevodchiki_dresden,https://tgden.com/en/intent/services/de
-de,Germany,goods,117,479,1321,174,0.3535,0.2545,natuerlicheressourcengoe natuerlicheressourcenfrankfurt sicdd,https://tgden.com/en/intent/goods/de
-de,Germany,real-estate,44,232,696,125,0.1329,0.1233,berlin_appartment germaniyadagi_uzbeklarr solidarischwohnenberlin,https://tgden.com/en/intent/real-estate/de
-de,Germany,jobs,11,78,219,99,0.0332,0.0414,germaniyadagi_uzbeklarr nash_berlin_jobs line_de,https://tgden.com/en/intent/jobs/de
-de,Germany,freight,2,43,113,62,0.0060,0.0228,https5xkxb4s3u2cwmwfk germaniyadagi_uzbeklarr ukraine_dortmund,https://tgden.com/en/intent/freight/de
-eg,Egypt,services,41,346,1047,42,0.5694,0.7936,egypt_hotels_travelask dahabchat khurgadab,https://tgden.com/en/intent/services/eg
-eg,Egypt,goods,18,52,174,19,0.2500,0.1193,dahabchat egypt_hotels_travelask khurgadab,https://tgden.com/en/intent/goods/eg
-eg,Egypt,real-estate,13,38,136,15,0.1806,0.0872,dahabchat kvartiry_doma_egipet dahabforum,https://tgden.com/en/intent/real-estate/eg
-es,Spain,services,52,365,1131,111,0.5591,0.6134,amigosalicanteucrania mamochkialicantespain vecinos_alicante,https://tgden.com/en/intent/services/es
-es,Spain,real-estate,19,95,304,54,0.2043,0.1597,malagacosta amigosalicanteucrania russians_in_marbella,https://tgden.com/en/intent/real-estate/es
-es,Spain,goods,17,82,275,48,0.1828,0.1378,baraholkavalencia pokemontcgpocketesp mamochkialicantespain,https://tgden.com/en/intent/goods/es
-es,Spain,jobs,5,53,139,36,0.0538,0.0891,alicantetop spainwork costablanka,https://tgden.com/en/intent/jobs/es
-fr,France,services,18,123,345,54,0.8182,0.7410,russiansin_paris parisinfoexpress provence_cotedazur,https://tgden.com/en/intent/services/fr
-fr,France,real-estate,4,43,102,24,0.1818,0.2590,russiansin_paris provence_cotedazur lazurkafrancemonaco,https://tgden.com/en/intent/real-estate/fr
-gb,United Kingdom,services,10,65,148,48,0.8333,0.6019,bazikaloukrainescotland aberde chatukraineuk,https://tgden.com/en/intent/services/gb
-gb,United Kingdom,jobs,2,43,67,24,0.1667,0.3981,constructionengland all4ukconstructionjobs jobs_uauk,https://tgden.com/en/intent/jobs/gb
-gr,Greece,services,2,33,96,11,1.0000,1.0000,ukrainianshelp onlinegreece algatrip_greece_chat,https://tgden.com/en/intent/services/gr
-hu,Hungary,services,6,54,124,15,1.0000,1.0000,helpukraine_hungary budapestchatik hungarywoman,https://tgden.com/en/intent/services/hu
-id,Indonesia,services,156,730,2215,171,0.5288,0.5282,balichat baliktoletit balichatik,https://tgden.com/en/intent/services/id
-id,Indonesia,goods,84,401,1151,203,0.2847,0.2902,balichat adoptmeindooooo balichatmarket,https://tgden.com/en/intent/goods/id
-id,Indonesia,real-estate,47,191,633,43,0.1593,0.1382,balichatarenda balichatroommates balichat,https://tgden.com/en/intent/real-estate/id
-id,Indonesia,jobs,8,60,167,78,0.0271,0.0434,lowongan_indonesia nokoswa2026 balichatservices,https://tgden.com/en/intent/jobs/id
-ie,Ireland,services,3,26,81,19,0.5000,0.6341,ireland_ua_chat ukrainian_in_ireland corkukrainians,https://tgden.com/en/intent/services/ie
-ie,Ireland,real-estate,3,15,60,8,0.5000,0.3659,houseandwork ireland_ua_chat dublin_ua,https://tgden.com/en/intent/real-estate/ie
-il,Israel,services,13,85,246,35,0.7222,0.7203,tramp_israel olimhadashim freekarmiel,https://tgden.com/en/intent/services/il
-il,Israel,goods,4,21,67,17,0.2222,0.1780,freekarmiel print3dworld akko_pomogaem,https://tgden.com/en/intent/goods/il
-il,Israel,real-estate,1,12,55,11,0.0556,0.1017,sublet_israel snyat_kvartiruy netanyachatroom,https://tgden.com/en/intent/real-estate/il
-in,India,services,53,251,743,132,0.4492,0.4960,goa_wheels goaindiachat mhavatar,https://tgden.com/en/intent/services/in
-in,India,goods,34,165,460,91,0.2881,0.3261,birparaglidingcommunity magicpindealss mhroomsindelhi,https://tgden.com/en/intent/goods/in
-in,India,real-estate,25,60,305,42,0.2119,0.1186,mhroomsindelhi westpunerooms delhiroomforrent,https://tgden.com/en/intent/real-estate/in
-in,India,jobs,6,30,91,44,0.0508,0.0593,mhroomsindelhi cajobcampus webdevelopergroups,https://tgden.com/en/intent/jobs/in
-it,Italy,real-estate,76,320,1077,32,0.7600,0.5451,snginitaly2022 affittipadova casestudentitorino,https://tgden.com/en/intent/real-estate/it
-it,Italy,services,18,187,484,61,0.1800,0.3186,snginitaly2022 uzbekstudentsinitaly russiansin_italy,https://tgden.com/en/intent/services/it
-it,Italy,goods,6,80,214,48,0.0600,0.1363,pkmnmillennium mercatinogiochidatavolo snginitaly2022,https://tgden.com/en/intent/goods/it
-jp,Japan,goods,7,34,117,9,0.5833,0.3434,wrenjapanchat yaponiyadaoldisotdi forum_japan,
-jp,Japan,services,5,65,258,17,0.4167,0.6566,wrenjapanchat yaponiyadaoldisotdi loxoninjp,https://tgden.com/en/intent/services/jp
-kg,Kyrgyzstan,services,238,884,2485,54,0.5848,0.5993,pharmacysearch advtusa smmspecialisty,https://tgden.com/en/intent/services/kg
-kg,Kyrgyzstan,goods,129,301,1022,41,0.3170,0.2041,pharmacysearch bayer_helper_dordoi bicycle_market_kg,https://tgden.com/en/intent/goods/kg
-kg,Kyrgyzstan,jobs,26,191,475,44,0.0639,0.1295,advtusa smmspecialisty bishkek_jumush,https://tgden.com/en/intent/jobs/kg
-kg,Kyrgyzstan,real-estate,10,82,239,17,0.0246,0.0556,kvartira_bishkekkg rent_kg_chat bishkekhouse24,https://tgden.com/en/intent/real-estate/kg
-kg,Kyrgyzstan,freight,4,17,77,45,0.0098,0.0115,gruzoperevozki_rossiya worldlogistic tutgruz,
-kh,KH,jobs,7,23,60,11,1.0000,1.0000,jobs_cambodia khmerworkerchat teachingjobinphnompenh,https://tgden.com/en/intent/jobs/kh
-kr,South Korea,jobs,29,37,148,17,1.0000,1.0000,akkorea arbaans akorea,https://tgden.com/en/intent/jobs/kr
-kz,Kazakhstan,services,68,335,1085,226,0.3696,0.3146,rabota_kosshy almatada_ish_rabota stroitelkz,https://tgden.com/en/intent/services/kz
-kz,Kazakhstan,goods,48,240,630,112,0.2609,0.2254,pinduoduotechchat chat1darsi itbazarkz,https://tgden.com/en/intent/goods/kz
-kz,Kazakhstan,freight,47,257,839,109,0.2554,0.2413,perevozka_gruzov_logistika_kz k7777kz kaljatchat,https://tgden.com/en/intent/freight/kz
-kz,Kazakhstan,jobs,15,195,653,99,0.0815,0.1831,almatada_ish_rabota rabota_kosshy stroitelkz,https://tgden.com/en/intent/jobs/kz
-kz,Kazakhstan,real-estate,6,38,149,34,0.0326,0.0357,kvartirant_kosshy zhilio kbtuhousing,https://tgden.com/en/intent/real-estate/kz
-lk,Sri Lanka,services,50,195,574,42,0.6849,0.7222,shri_lanka_tranfer shri_lanka_ru shri_lanka_bike,https://tgden.com/en/intent/services/lk
-lk,Sri Lanka,real-estate,13,28,110,18,0.1781,0.1037,shri_lanka_rent shri_lanka_ru rentlankagroup,https://tgden.com/en/intent/real-estate/lk
-lk,Sri Lanka,goods,10,47,120,19,0.1370,0.1741,shri_lanka_by_sell shri_lanka_ru weligamnost,https://tgden.com/en/intent/goods/lk
-lt,Lithuania,services,2,36,104,19,1.0000,1.0000,mamavilnius drivinglicenselt lithuania_granitsa,https://tgden.com/en/intent/services/lt
-lv,Latvia,goods,4,13,55,6,1.0000,1.0000,daugavpilsbarahollka gostationlv latviyadagiuzbeklar,https://tgden.com/en/intent/goods/lv
-md,Moldova,goods,13,35,166,11,0.8125,0.5072,pmr_com beltsybaraholka vapebaraholkamd,https://tgden.com/en/intent/goods/md
-md,Moldova,services,3,34,147,37,0.1875,0.4928,pmr_com ua_in_md_and_ro homeinukraine,https://tgden.com/en/intent/services/md
-me,Montenegro,services,53,295,1093,41,0.8833,0.8127,poputn monteroad vhercegnovi,https://tgden.com/en/intent/services/me
-me,Montenegro,goods,7,68,214,24,0.1167,0.1873,vhercegnovi women_women_pg montenegro_bar,https://tgden.com/en/intent/goods/me
-mv,Maldives,services,6,74,228,11,1.0000,1.0000,maldives_hotels_travelask thoddookingdom thoddoomaldives,https://tgden.com/en/intent/services/mv
-my,Malaysia,services,10,113,227,27,1.0000,1.0000,wtswtbwttbybella malaysia_relax_chat kazakhs_in_malaysia,https://tgden.com/en/intent/services/my
-nl,Netherlands,services,9,68,189,29,1.0000,1.0000,benelux_post_pool chat_ukrainians_nl haarlem_ru,https://tgden.com/en/intent/services/nl
-ph,Philippines,goods,39,248,509,48,0.6094,0.5415,lookmosellers lfbuyersmakers buynsellred,https://tgden.com/en/intent/goods/ph
-ph,Philippines,services,22,180,418,41,0.3438,0.3930,lookmosellers lfbuyersmakers islandsofph,https://tgden.com/en/intent/services/ph
-ph,Philippines,jobs,3,30,60,17,0.0469,0.0655,lookmosellers lfbuyersmakers ofmhire,https://tgden.com/en/intent/jobs/ph
-pl,Poland,services,53,397,1319,125,0.6310,0.6752,granica_by_lt_pl terespol belastok_chat,https://tgden.com/en/intent/services/pl
-pl,Poland,jobs,17,109,237,91,0.2024,0.1854,pol_relocation robota_warsawa belastok_chat,https://tgden.com/en/intent/jobs/pl
-pl,Poland,goods,13,26,117,36,0.1548,0.0442,belastok_chat polandviz mamawarszawa,https://tgden.com/en/intent/goods/pl
-pl,Poland,real-estate,1,26,109,24,0.0119,0.0442,warszawakvartira belastok_chat polshastudent,https://tgden.com/en/intent/real-estate/pl
-pl,Poland,freight,0,30,86,20,0.0000,0.0510,granica_by_lt_pl belastok_chat dalnoboi_life,https://tgden.com/en/intent/freight/pl
-pt,Portugal,services,23,129,358,37,0.5476,0.8217,uainpt devishnikportugal ukrporto,https://tgden.com/en/intent/services/pt
-pt,Portugal,goods,13,13,76,11,0.3095,0.0828,baraholka_pt uainpt ukrporto,https://tgden.com/en/intent/goods/pt
-pt,Portugal,real-estate,6,15,66,17,0.1429,0.0955,uainpt ptbuyandsell lisbonuarazom,https://tgden.com/en/intent/real-estate/pt
-ro,Romania,services,36,217,663,46,0.8000,0.8785,medicinabucuresti ukrainians_bucharest mamaia_ua,https://tgden.com/en/intent/services/ro
-ro,Romania,goods,9,30,93,17,0.2000,0.1215,mamaia_ua ukrainians_bucharest vilnagrupabrasov,https://tgden.com/en/intent/goods/ro
-rs,Serbia,services,67,353,1235,71,0.7444,0.7131,maeliachat srb_guide vrachivserbii,https://tgden.com/en/intent/services/rs
-rs,Serbia,goods,21,93,374,40,0.2333,0.1879,klubnovisada novisad_ru kuce_beograd,https://tgden.com/en/intent/goods/rs
-rs,Serbia,real-estate,2,49,159,28,0.0222,0.0990,snimaem_kvartiru_vmeste srb_guide kuce_beograd,https://tgden.com/en/intent/real-estate/rs
-ru,Russia,goods,2231,9226,25364,2533,0.4169,0.3003,gorbushkin_ru grand_rynok arzmarket_vice,https://tgden.com/en/intent/goods/ru
-ru,Russia,services,1998,13599,36413,4824,0.3733,0.4427,boevayaclassica_baraholka grand_rynok drift_ekb,https://tgden.com/en/intent/services/ru
-ru,Russia,jobs,673,5411,15075,2617,0.1257,0.1762,wwwkgru the_food_industry_moscow rabota_gruzchikom_podrabotka,https://tgden.com/en/intent/jobs/ru
-ru,Russia,real-estate,261,1333,3468,702,0.0488,0.0434,grand_rynok piterdaelonuz chechenmoscow095,https://tgden.com/en/intent/real-estate/ru
-ru,Russia,freight,189,1149,3655,483,0.0353,0.0374,zakasmuzikkkk gruzoperevozki_rossiya rossia1_2,https://tgden.com/en/intent/freight/ru
-sa,Saudi Arabia,services,86,427,1258,17,0.7544,0.7176,saudiyaxizmatlar saudiaru mekka_medina_hijaz,https://tgden.com/en/intent/services/sa
-sa,Saudi Arabia,goods,14,66,237,8,0.1228,0.1109,saudiyaxizmatlar saudiaru mekka_medina_hijaz,https://tgden.com/en/intent/goods/sa
-sa,Saudi Arabia,real-estate,11,71,224,7,0.0965,0.1193,saudiyaxizmatlar saudiaru oursaudia,https://tgden.com/en/intent/real-estate/sa
-sa,Saudi Arabia,freight,3,31,87,5,0.0263,0.0521,saudiyaxizmatlar yuk_ksa saudiaru,https://tgden.com/en/intent/freight/sa
-sc,Seychelles,services,0,27,77,8,0.0000,1.0000,seychelles_ru seyshelles_chat mae_viktoriya,
-sg,Singapore,services,906,3069,9969,39,0.9805,0.9600,sgphitch hitchsg sghitch,https://tgden.com/en/intent/services/sg
-sg,Singapore,jobs,13,71,190,9,0.0141,0.0222,sgparcels modelssg sgphitch,https://tgden.com/en/intent/jobs/sg
-sg,Singapore,goods,5,57,130,21,0.0054,0.0178,cardconnectsg xmaxsingapuramarketplace aeroxmarketplace,https://tgden.com/en/intent/goods/sg
-sk,Slovakia,services,7,34,105,21,1.0000,1.0000,arendabratislava slovakiabelarus slovakia_chat_ua,https://tgden.com/en/intent/services/sk
-th,Thailand,services,205,1434,3871,343,0.6250,0.7085,pkhukete thailand_hotels_travelask provodnik_phuket,https://tgden.com/en/intent/services/th
-th,Thailand,goods,75,308,1060,191,0.2287,0.1522,phuket2nd pattaiachat_ask pkhukete,https://tgden.com/en/intent/goods/th
-th,Thailand,real-estate,40,241,704,163,0.1220,0.1191,housepattayago phuketnomer1 tailand_chat_relax,https://tgden.com/en/intent/real-estate/th
-th,Thailand,jobs,8,41,116,53,0.0244,0.0203,tailand_rabota phuketjob nannyphuket23,https://tgden.com/en/intent/jobs/th
-tj,Tajikistan,freight,2,22,71,40,1.0000,1.0000,worldlogistic dunyo_boylab_yuklar rossia1_2,
-tr,Turkey,services,204,1400,4439,469,0.4387,0.4701,russiansinturkey_antalya alanyaukraine mersin_777,https://tgden.com/en/intent/services/tr
-tr,Turkey,goods,160,989,2884,314,0.3441,0.3321,ekitap_okugrup booksfer_paylasim mtlpremiumshopgrubu,https://tgden.com/en/intent/goods/tr
-tr,Turkey,real-estate,74,433,1368,195,0.1591,0.1454,turkiya_savol arenda_tursia istambul88,https://tgden.com/en/intent/real-estate/tr
-tr,Turkey,jobs,17,95,321,114,0.0366,0.0319,turkiyau turkiya_savol rabota_inturkey,https://tgden.com/en/intent/jobs/tr
-tr,Turkey,freight,10,61,163,74,0.0215,0.0205,kazakhinturkey kazakhivstambule turkiya_savol,https://tgden.com/en/intent/freight/tr
-tz,Tanzania,services,2,36,115,7,1.0000,1.0000,zanzibar4 zanzibar_island zanzibar_info,
-ua,Ukraine,services,622,2731,6858,629,0.4972,0.5442,search_buy blablacarnikopol berdiansk_me,https://tgden.com/en/intent/services/ua
-ua,Ukraine,goods,381,988,3025,412,0.3046,0.1969,bazar_sto ua_store_chat berdiansk_me,https://tgden.com/en/intent/goods/ua
-ua,Ukraine,jobs,142,921,2299,511,0.1135,0.1835,riznorobohi umanwork smmbunker,https://tgden.com/en/intent/jobs/ua
-ua,Ukraine,real-estate,99,293,780,172,0.0791,0.0584,berdiansk_me chuguev_life_love hternovka,https://tgden.com/en/intent/real-estate/ua
-ua,Ukraine,freight,7,85,161,54,0.0056,0.0169,gruzoperevozki_ukraina riznorobohi pereviznyk_ua_eu,https://tgden.com/en/intent/freight/ua
-us,United States,services,77,421,1278,236,0.4529,0.5363,adaptationinsacramento texaschapter gofortravel_chat,https://tgden.com/en/intent/services/us
-us,United States,jobs,47,164,507,162,0.2765,0.2089,jobmiami new_york_avito ukrchicago,https://tgden.com/en/intent/jobs/us
-us,United States,real-estate,24,145,406,68,0.1412,0.1847,dallasaccommodationsonly texaschapter ukrnewyorkgroup,https://tgden.com/en/intent/real-estate/us
-us,United States,goods,12,24,184,80,0.0706,0.0306,mercaperfume lfbuyerseller candlescience_chat,https://tgden.com/en/intent/goods/us
-us,United States,freight,10,31,64,28,0.0588,0.0395,usatc usatrucker fleetmanagers,https://tgden.com/en/intent/freight/us
-uz,Uzbekistan,freight,1666,6235,16156,210,0.5136,0.4495,yuk_markazi_gruupa zakasmuzikkkk namangan_labo3,https://tgden.com/en/intent/freight/uz
-uz,Uzbekistan,services,893,4326,11728,964,0.2753,0.3119,kukdalasity toshken_gul_taksistlari termiz_denov_uzun_taksi_m41,https://tgden.com/en/intent/services/uz
-uz,Uzbekistan,goods,429,2198,6053,781,0.1322,0.1585,bizbop_chat arm_database online_dorixona_afm,https://tgden.com/en/intent/goods/uz
-uz,Uzbekistan,jobs,155,686,1865,424,0.0478,0.0495,workinrestaurant kukdalasity workinrestaurantsuz,https://tgden.com/en/intent/jobs/uz
-uz,Uzbekistan,real-estate,101,426,1108,220,0.0311,0.0307,kvartira_termiz_kvartir tashabbuskor_xotin_qizlar sergeli_chilonzor_arzon_kvartira,https://tgden.com/en/intent/real-estate/uz
-vn,Vietnam,services,245,1349,4308,215,0.5326,0.5940,nhatranggirls_ask phu_quoc_vietnam danang_women,https://tgden.com/en/intent/services/vn
-vn,Vietnam,goods,121,569,1920,157,0.2630,0.2506,danang_women nhatranggirls_ask nyachang_chatask,https://tgden.com/en/intent/goods/vn
-vn,Vietnam,real-estate,79,244,860,114,0.1717,0.1074,rent_vietnam phu_quoc_vietnam rent_on_phuquoc,https://tgden.com/en/intent/real-estate/vn
-vn,Vietnam,jobs,14,65,209,49,0.0304,0.0286,nhatrang_rabota nhatrangwork vietnam_rabota,https://tgden.com/en/intent/jobs/vn
-vn,Vietnam,freight,1,44,102,34,0.0022,0.0194,ktoletitvietnam parcel_vietnam danang_viet,https://tgden.com/en/intent/freight/vn
+ae,UAE,services,329,892,3292,176,0.6208,0.6317,taxi_indubai kazakhindubai chat_dubai_group,https://tgden.com/en/intent/services/ae
+ae,UAE,real-estate,111,264,1114,105,0.2094,0.1870,rent_in_dubai kazakhindubai buyer_request,https://tgden.com/en/intent/real-estate/ae
+ae,UAE,goods,56,127,463,78,0.1057,0.0899,kazakhindubai chat_dubai_group dubai_chat_russia,https://tgden.com/en/intent/goods/ae
+ae,UAE,jobs,30,102,329,102,0.0566,0.0722,kazakhindubai chat_dubai_group igamingjobhub,https://tgden.com/en/intent/jobs/ae
+ae,UAE,freight,4,27,122,27,0.0075,0.0191,kazakhindubai uzbeksocietyinuae kyrgysz_in_dubai,https://tgden.com/en/intent/freight/ae
+al,Albania,services,29,85,321,15,0.6905,0.6204,albaniavlore albaniaukraine ukraine_in_durres,https://tgden.com/en/intent/services/al
+al,Albania,goods,11,38,142,10,0.2619,0.2774,albaniavlore albaniaukraine ukraine_in_durres,https://tgden.com/en/intent/goods/al
+al,Albania,real-estate,2,14,54,8,0.0476,0.1022,albaniaukraine ukraine_in_durres albaniavlore,https://tgden.com/en/intent/real-estate/al
+am,Armenia,services,39,126,433,52,0.4333,0.4941,rusarmenia armeniarus_chat erevan12,https://tgden.com/en/intent/services/am
+am,Armenia,real-estate,33,79,400,23,0.3667,0.3098,rent_comissionfree armeniacalling rusarmenia,https://tgden.com/en/intent/real-estate/am
+am,Armenia,goods,11,36,135,25,0.1222,0.1412,rusarmenia dogfriendly_yerevan yerevanplants,https://tgden.com/en/intent/goods/am
+am,Armenia,jobs,7,14,51,17,0.0778,0.0549,rusarmenia castings_am creativityyarmenia,https://tgden.com/en/intent/jobs/am
+ar,Argentina,services,13,51,213,24,0.6500,0.7846,argentinachild rodyvargentine medicina_en_buenosaires,https://tgden.com/en/intent/services/ar
+ar,Argentina,goods,7,14,87,14,0.3500,0.2154,rodyvargentine argentina_dogs argdom,https://tgden.com/en/intent/goods/ar
+at,Austria,services,18,66,188,21,0.6923,0.7500,qgzojezjescwnjzk austriapost uobero,https://tgden.com/en/intent/services/at
+at,Austria,real-estate,8,22,52,9,0.3077,0.2500,students_austria qgzojezjescwnjzk immowien,https://tgden.com/en/intent/real-estate/at
+bd,Bangladesh,goods,5,25,64,17,1.0000,1.0000,snbuysellzone greencitynrb hp_buysell_group,https://tgden.com/en/intent/goods/bd
+bg,Bulgaria,services,96,309,1036,66,0.7385,0.7220,uamominvarna autochat_bulgaria_ukraine solnechniyberegbg,https://tgden.com/en/intent/services/bg
+bg,Bulgaria,goods,21,57,209,25,0.1615,0.1332,uamominvarna solnechniyberegbg varnafree,https://tgden.com/en/intent/goods/bg
+bg,Bulgaria,real-estate,8,38,163,40,0.0615,0.0888,uamominvarna ukraina_bulgaria solnechniyberegbg,https://tgden.com/en/intent/real-estate/bg
+bg,Bulgaria,jobs,5,24,67,27,0.0385,0.0561,uamominvarna uainplovdiv bolgariyadagiuzbeklar_rasmiy,https://tgden.com/en/intent/jobs/bg
+br,Brazil,services,22,108,330,26,0.5116,0.6506,brfloripa pochta_brazil brazil_for_you_floripa,https://tgden.com/en/intent/services/br
+br,Brazil,goods,21,58,165,15,0.4884,0.3494,brfloripa brazil_for_you_floripa baraholka_brazil_for_you,https://tgden.com/en/intent/goods/br
+by,Belarus,services,489,1371,4406,212,0.5158,0.6374,granica_bypl belgranica travelersminsk,https://tgden.com/en/intent/services/by
+by,Belarus,goods,314,190,859,90,0.3312,0.0883,gomel_vaper vapebaracholkam1nsk lydoman_rb,https://tgden.com/en/intent/goods/by
+by,Belarus,jobs,76,315,866,56,0.0802,0.1464,rabota_v_minske77 rabota_v_minske1 podrabotka_rabota_v_minske,https://tgden.com/en/intent/jobs/by
+by,Belarus,real-estate,59,145,416,30,0.0622,0.0674,kvartira_minsk_by flattylocals edu_v_belarus,https://tgden.com/en/intent/real-estate/by
+by,Belarus,freight,10,130,313,65,0.0105,0.0604,dostawka_eu_by dl_baraholka travelersminsk,https://tgden.com/en/intent/freight/by
+ca,Canada,services,17,63,198,33,1.0000,1.0000,prcuaet uu_calgary firstukrnl,https://tgden.com/en/intent/services/ca
+ch,Switzerland,services,10,40,134,29,0.6667,0.4348,bernukraine stgallenukraine geneveukraine,https://tgden.com/en/intent/services/ch
+ch,Switzerland,goods,5,52,193,17,0.3333,0.5652,unkommerziellermarktplatzbasel uncommercial_bielbienne unkommerziellermarktsg,https://tgden.com/en/intent/goods/ch
+cn,China,services,63,375,1369,85,0.4468,0.6271,hainan_kitaj china_hotels_travelask guangzhouchina,https://tgden.com/en/intent/services/cn
+cn,China,goods,54,167,610,47,0.3830,0.2793,hainan_kitaj guangzhouchina hainantravelme,https://tgden.com/en/intent/goods/cn
+cn,China,freight,12,38,131,35,0.0851,0.0635,guangzhouchina kaljatchat kz_china,https://tgden.com/en/intent/freight/cn
+cn,China,real-estate,12,18,115,11,0.0851,0.0301,guangzhouchina hainan_kitaj kz_china,https://tgden.com/en/intent/real-estate/cn
+cy,Cyprus,services,87,271,955,58,0.5370,0.4883,uacyprus cuprushelpers cyprus_femchat,https://tgden.com/en/intent/services/cy
+cy,Cyprus,goods,45,64,274,32,0.2778,0.1153,cyprus_femchat cyprussale cyanimals,https://tgden.com/en/intent/goods/cy
+cy,Cyprus,real-estate,21,61,223,28,0.1296,0.1099,uacyprus kibrisogrencileri cyprusprop,https://tgden.com/en/intent/real-estate/cy
+cy,Cyprus,jobs,9,159,347,20,0.0556,0.2865,cyprusithr uacyprus cuprushelpers,https://tgden.com/en/intent/jobs/cy
+cz,Czechia,jobs,13,39,106,30,0.7647,0.5200,oholosennia_czechia prague_official fushka_praga,https://tgden.com/en/intent/jobs/cz
+cz,Czechia,services,4,36,74,33,0.2353,0.4800,plzengroupchat pardubice_chesko chexiyadagiuzbeklar_rasmiy,https://tgden.com/en/intent/services/cz
+de,Germany,services,323,948,3291,331,0.4931,0.5650,germaniyadagi_uzbeklarr ukr_augsburg_help perevodchiki_dresden,https://tgden.com/en/intent/services/de
+de,Germany,goods,207,425,1375,182,0.3160,0.2533,natuerlicheressourcengoe natuerlicheressourcenfrankfurt natuerlicheressourcenoriginal,https://tgden.com/en/intent/goods/de
+de,Germany,real-estate,97,194,720,136,0.1481,0.1156,berlin_appartment germaniyadagi_uzbeklarr solidarischwohnenberlin,https://tgden.com/en/intent/real-estate/de
+de,Germany,jobs,22,69,217,98,0.0336,0.0411,germaniyadagi_uzbeklarr nash_berlin_jobs kasselhesseninfo,https://tgden.com/en/intent/jobs/de
+de,Germany,freight,6,42,114,63,0.0092,0.0250,https5xkxb4s3u2cwmwfk germaniyadagi_uzbeklarr ukraine_dortmund,https://tgden.com/en/intent/freight/de
+eg,Egypt,services,63,314,1007,42,0.5780,0.8114,egypt_hotels_travelask dahabchat khurgadab,https://tgden.com/en/intent/services/eg
+eg,Egypt,goods,24,40,174,19,0.2202,0.1034,dahabchat egypt_hotels_travelask khurgadab,https://tgden.com/en/intent/goods/eg
+eg,Egypt,real-estate,22,33,136,15,0.2018,0.0853,dahabchat kvartiry_doma_egipet dahabforum,https://tgden.com/en/intent/real-estate/eg
+es,Spain,services,95,334,1134,118,0.5367,0.6208,amigosalicanteucrania vecinos_alicante mamochkialicantespain,https://tgden.com/en/intent/services/es
+es,Spain,real-estate,39,86,306,55,0.2203,0.1599,malagacosta amigosalicanteucrania russians_in_marbella,https://tgden.com/en/intent/real-estate/es
+es,Spain,goods,33,68,280,50,0.1864,0.1264,baraholkavalencia pokemontcgpocketesp vecinos_alicante,https://tgden.com/en/intent/goods/es
+es,Spain,jobs,10,50,137,38,0.0565,0.0929,alicantetop spainwork cwyjh,https://tgden.com/en/intent/jobs/es
+fr,France,services,34,114,355,54,0.6667,0.7500,russiansin_paris parisinfoexpress provence_cotedazur,https://tgden.com/en/intent/services/fr
+fr,France,real-estate,17,38,113,26,0.3333,0.2500,russiansin_paris provence_cotedazur parisinfoexpress,https://tgden.com/en/intent/real-estate/fr
+gb,United Kingdom,services,23,59,152,52,0.6970,0.5960,aberde bazikaloukrainescotland londonamid,https://tgden.com/en/intent/services/gb
+gb,United Kingdom,jobs,10,40,75,27,0.3030,0.4040,constructionengland all4ukconstructionjobs jobs_uauk,https://tgden.com/en/intent/jobs/gb
+gr,Greece,services,6,26,99,12,1.0000,1.0000,ukrainianshelp onlinegreece algatrip_greece_chat,https://tgden.com/en/intent/services/gr
+hu,Hungary,services,15,50,125,15,1.0000,1.0000,helpukraine_hungary budapestchatik hungarywoman,https://tgden.com/en/intent/services/hu
+id,Indonesia,services,268,666,2223,172,0.5194,0.5328,balichat baliktoletit balichatik,https://tgden.com/en/intent/services/id
+id,Indonesia,goods,135,364,1155,205,0.2616,0.2912,balichat adoptmeindooooo balichatmarket,https://tgden.com/en/intent/goods/id
+id,Indonesia,real-estate,101,172,656,44,0.1957,0.1376,balichatarenda balichatroommates balichat,https://tgden.com/en/intent/real-estate/id
+id,Indonesia,jobs,12,48,169,80,0.0233,0.0384,lowongan_indonesia nokoswa2026 balichatservices,https://tgden.com/en/intent/jobs/id
+ie,Ireland,services,12,26,89,20,0.5455,0.5778,ireland_ua_chat ukrainian_in_ireland corkukrainians,https://tgden.com/en/intent/services/ie
+ie,Ireland,goods,6,9,51,11,0.2727,0.2000,airsoftbuyselltrade corkukrainians buy_sell_ireland,https://tgden.com/en/intent/goods/ie
+ie,Ireland,real-estate,4,10,60,11,0.1818,0.2222,houseandwork ireland_ua_chat dublin_ua,https://tgden.com/en/intent/real-estate/ie
+il,Israel,services,21,78,244,38,0.4884,0.6393,tramp_israel olimhadashim freekarmiel,https://tgden.com/en/intent/services/il
+il,Israel,jobs,14,12,53,13,0.3256,0.0984,proworkisgroup izrail_rabota rabota_israel2023,https://tgden.com/en/intent/jobs/il
+il,Israel,goods,7,20,67,18,0.1628,0.1639,freekarmiel print3dworld akko_pomogaem,https://tgden.com/en/intent/goods/il
+il,Israel,real-estate,1,12,50,11,0.0233,0.0984,sublet_israel snyat_kvartiruy netanyachatroom,https://tgden.com/en/intent/real-estate/il
+in,India,services,97,220,790,141,0.4924,0.5081,goa_wheels goaindiachat mhavatar,https://tgden.com/en/intent/services/in
+in,India,goods,52,144,470,98,0.2640,0.3326,mhroomsindelhi birparaglidingcommunity magicpindealss,https://tgden.com/en/intent/goods/in
+in,India,real-estate,36,48,311,45,0.1827,0.1109,mhroomsindelhi westpunerooms delhiroomforrent,https://tgden.com/en/intent/real-estate/in
+in,India,jobs,12,21,95,47,0.0609,0.0485,mhroomsindelhi cajobcampus webdevelopergroups,https://tgden.com/en/intent/jobs/in
+it,Italy,real-estate,114,276,1064,34,0.7308,0.5509,snginitaly2022 affittipadova casestudentitorino,https://tgden.com/en/intent/real-estate/it
+it,Italy,services,29,164,473,66,0.1859,0.3273,snginitaly2022 uzbekstudentsinitaly russiansin_italy,https://tgden.com/en/intent/services/it
+it,Italy,goods,13,61,216,48,0.0833,0.1218,pkmnmillennium mercatinogiochidatavolo annuncipolito,https://tgden.com/en/intent/goods/it
+jp,Japan,goods,14,30,124,11,0.7368,0.3409,wrenjapanchat yaponiyadaoldisotdi forum_japan,
+jp,Japan,services,5,58,252,16,0.2632,0.6591,wrenjapanchat yaponiyadaoldisotdi loxoninjp,https://tgden.com/en/intent/services/jp
+kg,Kyrgyzstan,services,469,775,2662,56,0.5944,0.5889,pharmacysearch advtusa smmspecialisty,https://tgden.com/en/intent/services/kg
+kg,Kyrgyzstan,goods,234,283,1112,44,0.2966,0.2150,pharmacysearch bicycle_market_kg bayer_helper_dordoi,https://tgden.com/en/intent/goods/kg
+kg,Kyrgyzstan,jobs,52,172,474,49,0.0659,0.1307,advtusa smmspecialisty bishkek_jumush,https://tgden.com/en/intent/jobs/kg
+kg,Kyrgyzstan,real-estate,25,74,249,17,0.0317,0.0562,kvartira_bishkekkg rent_kg_chat bishkekhouse24,https://tgden.com/en/intent/real-estate/kg
+kg,Kyrgyzstan,freight,9,12,81,47,0.0114,0.0091,gruzoperevozki_rossiya logisticscargo tutgruz,
+kh,KH,jobs,11,17,63,12,1.0000,1.0000,jobs_cambodia khmerworkerchat teachingjobinphnompenh,https://tgden.com/en/intent/jobs/kh
+kr,South Korea,jobs,39,32,159,17,1.0000,1.0000,akkorea arbaans akorea,https://tgden.com/en/intent/jobs/kr
+kz,Kazakhstan,services,108,299,1075,233,0.3205,0.3308,rabota_kosshy almatada_ish_rabota stroitelkz,https://tgden.com/en/intent/services/kz
+kz,Kazakhstan,freight,98,196,866,109,0.2908,0.2168,perevozka_gruzov_logistika_kz k7777kz kaljatchat,https://tgden.com/en/intent/freight/kz
+kz,Kazakhstan,goods,92,202,684,118,0.2730,0.2235,chat1darsi pinduoduotechchat itbazarkz,https://tgden.com/en/intent/goods/kz
+kz,Kazakhstan,jobs,23,175,629,102,0.0682,0.1936,almatada_ish_rabota rabota_kosshy stroitelkz,https://tgden.com/en/intent/jobs/kz
+kz,Kazakhstan,real-estate,16,32,150,35,0.0475,0.0354,kvartirant_kosshy zhilio kbtuhousing,https://tgden.com/en/intent/real-estate/kz
+lk,Sri Lanka,services,83,192,586,43,0.6694,0.7328,shri_lanka_tranfer shri_lanka_ru shri_lanka_bike,https://tgden.com/en/intent/services/lk
+lk,Sri Lanka,real-estate,22,27,109,19,0.1774,0.1031,shri_lanka_rent shri_lanka_ru rentlankagroup,https://tgden.com/en/intent/real-estate/lk
+lk,Sri Lanka,goods,19,43,128,21,0.1532,0.1641,shri_lanka_by_sell shri_lanka_ru weligamnost,https://tgden.com/en/intent/goods/lk
+lt,Lithuania,services,8,32,103,20,1.0000,1.0000,mamavilnius drivinglicenselt lithuania_granitsa,https://tgden.com/en/intent/services/lt
+lv,Latvia,goods,9,12,62,7,0.6429,0.3000,daugavpilsbarahollka gostationlv latviyadagiuzbeklar,https://tgden.com/en/intent/goods/lv
+lv,Latvia,services,5,28,51,17,0.3571,0.7000,latviyadagiuzbeklar bura4ki_trehovo daugavpilsbarahollka,
+md,Moldova,goods,29,34,182,12,0.8056,0.5484,pmr_com beltsybaraholka vapebaraholkamd,https://tgden.com/en/intent/goods/md
+md,Moldova,services,7,28,150,38,0.1944,0.4516,pmr_com ua_in_md_and_ro homeinukraine,https://tgden.com/en/intent/services/md
+me,Montenegro,services,88,270,1066,41,0.8302,0.8133,poputn monteroad vhercegnovi,https://tgden.com/en/intent/services/me
+me,Montenegro,goods,18,62,216,24,0.1698,0.1867,vhercegnovi women_women_pg baraholka_monte,https://tgden.com/en/intent/goods/me
+mv,Maldives,services,13,69,229,12,1.0000,1.0000,maldives_hotels_travelask thoddookingdom thoddoomaldives,https://tgden.com/en/intent/services/mv
+my,Malaysia,services,19,107,235,27,1.0000,1.0000,wtswtbwttbybella malaysia_relax_chat kazakhs_in_malaysia,https://tgden.com/en/intent/services/my
+nl,Netherlands,services,20,53,200,33,1.0000,1.0000,benelux_post_pool chat_ukrainians_nl haarlem_ru,https://tgden.com/en/intent/services/nl
+ph,Philippines,goods,78,215,550,52,0.5821,0.5416,lookmosellers lfbuyersmakers buynsellred,https://tgden.com/en/intent/goods/ph
+ph,Philippines,services,53,157,441,44,0.3955,0.3955,lookmosellers lfbuyersmakers islandsofph,https://tgden.com/en/intent/services/ph
+ph,Philippines,jobs,3,25,61,18,0.0224,0.0630,lookmosellers lfbuyersmakers ofmhire,https://tgden.com/en/intent/jobs/ph
+pl,Poland,services,115,353,1343,133,0.7099,0.6610,granica_by_lt_pl terespol belastok_chat,https://tgden.com/en/intent/services/pl
+pl,Poland,jobs,23,104,236,97,0.1420,0.1948,pol_relocation krakowi_rabota robota_warsawa,https://tgden.com/en/intent/jobs/pl
+pl,Poland,goods,19,25,121,38,0.1173,0.0468,belastok_chat polandviz mamawarszawa,https://tgden.com/en/intent/goods/pl
+pl,Poland,real-estate,4,25,103,24,0.0247,0.0468,warszawakvartira belastok_chat polshastudent,https://tgden.com/en/intent/real-estate/pl
+pl,Poland,freight,1,27,76,20,0.0062,0.0506,granica_by_lt_pl belastok_chat belarusypl,https://tgden.com/en/intent/freight/pl
+pt,Portugal,services,42,114,367,38,0.6087,0.8085,uainpt devishnikportugal ukrporto,https://tgden.com/en/intent/services/pt
+pt,Portugal,goods,20,13,81,13,0.2899,0.0922,baraholka_pt uainpt ukrporto,https://tgden.com/en/intent/goods/pt
+pt,Portugal,real-estate,7,14,64,17,0.1014,0.0993,uainpt ptbuyandsell lisbonuarazom,https://tgden.com/en/intent/real-estate/pt
+ro,Romania,services,73,200,680,48,0.8022,0.8811,medicinabucuresti ukrainians_bucharest mamaia_ua,https://tgden.com/en/intent/services/ro
+ro,Romania,goods,18,27,99,20,0.1978,0.1189,ukrainians_bucharest mamaia_ua vilnagrupabrasov,https://tgden.com/en/intent/goods/ro
+rs,Serbia,services,103,317,1219,70,0.7055,0.7237,maeliachat srb_guide vrachivserbii,https://tgden.com/en/intent/services/rs
+rs,Serbia,goods,35,78,370,40,0.2397,0.1781,klubnovisada novisad_ru kuce_beograd,https://tgden.com/en/intent/goods/rs
+rs,Serbia,real-estate,8,43,152,26,0.0548,0.0982,snimaem_kvartiru_vmeste srb_guide novisad_ru,https://tgden.com/en/intent/real-estate/rs
+ru,Russia,goods,3960,8074,26480,2679,0.4123,0.3011,gorbushkin_ru grand_rynok arzmarket_vice,https://tgden.com/en/intent/goods/ru
+ru,Russia,services,3583,11986,36782,4960,0.3731,0.4470,boevayaclassica_baraholka grand_rynok drift_ekb,https://tgden.com/en/intent/services/ru
+ru,Russia,jobs,1257,4575,14840,2643,0.1309,0.1706,wwwkgru rabota_gruzchikom_podrabotka the_food_industry_moscow,https://tgden.com/en/intent/jobs/ru
+ru,Russia,real-estate,474,1213,3554,716,0.0494,0.0452,grand_rynok piterdaelonuz chechenmoscow095,https://tgden.com/en/intent/real-estate/ru
+ru,Russia,freight,330,968,3591,488,0.0344,0.0361,gruzoperevozki_rossiya zakasmuzikkkk rossia1_2,https://tgden.com/en/intent/freight/ru
+sa,Saudi Arabia,services,143,368,1245,16,0.7044,0.7132,saudiyaxizmatlar saudiaru mekka_medina_hijaz,https://tgden.com/en/intent/services/sa
+sa,Saudi Arabia,real-estate,27,60,228,8,0.1330,0.1163,saudiyaxizmatlar saudiaru oursaudia,https://tgden.com/en/intent/real-estate/sa
+sa,Saudi Arabia,goods,25,59,242,8,0.1232,0.1143,saudiyaxizmatlar saudiaru mekka_medina_hijaz,https://tgden.com/en/intent/goods/sa
+sa,Saudi Arabia,freight,8,29,89,5,0.0394,0.0562,saudiyaxizmatlar yuk_ksa saudiaru,https://tgden.com/en/intent/freight/sa
+sc,Seychelles,services,0,23,73,8,0.0000,1.0000,seychelles_ru seyshelles_chat mae_viktoriya,
+sg,Singapore,services,1405,2647,9810,40,0.9777,0.9563,sgphitch hitchsg sghitch,https://tgden.com/en/intent/services/sg
+sg,Singapore,jobs,21,66,188,9,0.0146,0.0238,sgparcels modelssg sgsecurityofficers,https://tgden.com/en/intent/jobs/sg
+sg,Singapore,goods,11,55,130,22,0.0077,0.0199,cardconnectsg xmaxsingapuramarketplace aeroxmarketplace,https://tgden.com/en/intent/goods/sg
+sk,Slovakia,services,10,29,106,22,1.0000,1.0000,arendabratislava slovakiabelarus slovakia_chat_ua,https://tgden.com/en/intent/services/sk
+th,Thailand,services,355,1230,3860,341,0.6228,0.7135,pkhukete provodnik_phuket thailand_hotels_travelask,https://tgden.com/en/intent/services/th
+th,Thailand,goods,132,255,1058,191,0.2316,0.1479,phuket2nd pattaiachat_ask pkhukete,https://tgden.com/en/intent/goods/th
+th,Thailand,real-estate,71,209,708,161,0.1246,0.1212,housepattayago phuketnomer1 tailand_chat_relax,https://tgden.com/en/intent/real-estate/th
+th,Thailand,jobs,12,30,116,53,0.0211,0.0174,tailand_rabota phuketjob phuket_work,https://tgden.com/en/intent/jobs/th
+tj,Tajikistan,freight,2,19,68,39,1.0000,1.0000,dunyo_boylab_yuklar worldlogistic rossia1_2,
+tr,Turkey,services,334,1211,4347,469,0.4175,0.4705,russiansinturkey_antalya alanyaukraine mersin_777,https://tgden.com/en/intent/services/tr
+tr,Turkey,goods,273,862,2865,309,0.3412,0.3349,ekitap_okugrup booksfer_paylasim mtlpremiumshopgrubu,https://tgden.com/en/intent/goods/tr
+tr,Turkey,real-estate,134,367,1364,193,0.1675,0.1426,turkiya_savol arenda_tursia kazakhinturkey,https://tgden.com/en/intent/real-estate/tr
+tr,Turkey,jobs,43,82,328,115,0.0537,0.0319,turkiyau turkiya_savol turkiyadagi_musofirlar_uz,https://tgden.com/en/intent/jobs/tr
+tr,Turkey,freight,16,52,159,73,0.0200,0.0202,kazakhinturkey turkiya_savol kazakhivstambule,https://tgden.com/en/intent/freight/tr
+tz,Tanzania,services,5,35,116,7,1.0000,1.0000,zanzibar4 zanzibar_island zanzibar_info,
+ua,Ukraine,services,1136,2462,7329,679,0.5131,0.5418,search_buy blablacarnikopol berdiansk_me,https://tgden.com/en/intent/services/ua
+ua,Ukraine,goods,672,896,3302,453,0.3035,0.1972,bazar_sto ua_store_chat berdiansk_me,https://tgden.com/en/intent/goods/ua
+ua,Ukraine,jobs,228,839,2276,544,0.1030,0.1846,riznorobohi umanwork smmbunker,https://tgden.com/en/intent/jobs/ua
+ua,Ukraine,real-estate,169,263,835,186,0.0763,0.0579,berdiansk_me chuguev_life_love hternovka,https://tgden.com/en/intent/real-estate/ua
+ua,Ukraine,freight,9,84,166,57,0.0041,0.0185,gruzoperevozki_ukraina riznorobohi pereviznyk_ua_eu,https://tgden.com/en/intent/freight/ua
+us,United States,services,153,375,1299,238,0.4935,0.5435,texaschapter adaptationinsacramento gofortravel_chat,https://tgden.com/en/intent/services/us
+us,United States,jobs,70,140,494,165,0.2258,0.2029,jobmiami new_york_avito ukrchicago,https://tgden.com/en/intent/jobs/us
+us,United States,real-estate,46,127,419,72,0.1484,0.1841,dallasaccommodationsonly texaschapter hamvatanus,https://tgden.com/en/intent/real-estate/us
+us,United States,goods,23,18,187,84,0.0742,0.0261,mercaperfume lfbuyerseller candlescience_chat,https://tgden.com/en/intent/goods/us
+us,United States,freight,18,30,68,28,0.0581,0.0435,usatc truck_driver_us amazontema,https://tgden.com/en/intent/freight/us
+uz,Uzbekistan,freight,2887,5497,16922,217,0.4906,0.4423,yuk_markazi_gruupa zakasmuzikkkk namangan_labo3,https://tgden.com/en/intent/freight/uz
+uz,Uzbekistan,services,1717,3913,12030,982,0.2918,0.3149,kukdalasity toshken_gul_taksistlari termiz_denov_uzun_taksi_m41,https://tgden.com/en/intent/services/uz
+uz,Uzbekistan,goods,815,2004,6206,808,0.1385,0.1613,bizbop_chat arm_database tashkentcomp,https://tgden.com/en/intent/goods/uz
+uz,Uzbekistan,jobs,274,617,1894,433,0.0466,0.0496,workinrestaurant kukdalasity madikor_ishchilar_tashkenthotel,https://tgden.com/en/intent/jobs/uz
+uz,Uzbekistan,real-estate,192,396,1180,232,0.0326,0.0319,kvartira_termiz_kvartir tashabbuskor_xotin_qizlar sergeli_chilonzor_arzon_kvartira,https://tgden.com/en/intent/real-estate/uz
+vn,Vietnam,services,402,1163,4282,214,0.5296,0.5976,nhatranggirls_ask phu_quoc_vietnam danang_women,https://tgden.com/en/intent/services/vn
+vn,Vietnam,goods,204,479,1901,157,0.2688,0.2461,danang_women nhatranggirls_ask nyachang_chatask,https://tgden.com/en/intent/goods/vn
+vn,Vietnam,real-estate,129,209,862,112,0.1700,0.1074,rent_vietnam phu_quoc_vietnam rent_on_phuquoc,https://tgden.com/en/intent/real-estate/vn
+vn,Vietnam,jobs,23,55,211,49,0.0303,0.0283,nhatrang_rabota nhatrangwork rabota_vietnam,https://tgden.com/en/intent/jobs/vn
+vn,Vietnam,freight,1,40,92,30,0.0013,0.0206,ktoletitvietnam danang_viet parcel_vietnam,https://tgden.com/en/intent/freight/vn
