@@ -306,6 +306,42 @@ class TestFetch(unittest.TestCase):
         self.assertIn("unreachable", str(caught.exception))
 
 
+class TestCoverage(unittest.TestCase):
+    """The index is coverage-bound; say what the reader saw when the API reports it."""
+
+    def test_coverage_is_stated_when_the_payload_reports_it(self):
+        p = payload()
+        p["observation"] = {
+            "current7d": {"messagesObserved": 452621, "messagesLabeled": 63358,
+                          "coveragePct": 14.0},
+            "prev7d": {"messagesObserved": 499151, "messagesLabeled": 110176,
+                       "coveragePct": 22.1},
+        }
+        block = update.render(p, update.validate(p), update.page_set(pages(p)))
+        self.assertIn("What the reader saw", block)
+        self.assertIn("**452,621** messages scanned".replace("**", ""), block)
+        self.assertIn("63,358 of them requests (14.0%)", block)
+        self.assertIn("a week earlier 110,176 of 499,151 (22.1%)", block)
+
+    def test_a_payload_without_an_observation_renders_no_coverage_line(self):
+        block = update.render(payload(), update.validate(payload()),
+                             update.page_set(pages(payload())))
+        self.assertNotIn("What the reader saw", block)
+
+    def test_the_percentage_is_computed_when_only_the_counts_are_served(self):
+        p = payload()
+        p["observation"] = {"current7d": {"messagesObserved": 1000, "messagesLabeled": 140}}
+        block = update.render(p, update.validate(p), update.page_set(pages(p)))
+        self.assertIn("(14.0%)", block)
+
+    def test_zero_observed_messages_is_not_a_division(self):
+        p = payload()
+        p["observation"] = {"current7d": {"messagesObserved": 0, "messagesLabeled": 0},
+                            "prev7d": {"messagesObserved": 0, "messagesLabeled": 0}}
+        block = update.render(p, update.validate(p), update.page_set(pages(p)))
+        self.assertNotIn("What the reader saw", block)
+
+
 class TestCli(unittest.TestCase):
     def test_pages_without_input_is_refused(self):
         err = io.StringIO()
@@ -324,6 +360,22 @@ class TestCli(unittest.TestCase):
                 update.main(["--input", str(week)])
         self.assertEqual(caught.exception.code, 2)
         self.assertIn("go together", err.getvalue())
+
+    def test_dry_run_prints_the_block_and_writes_nothing(self):
+        p = payload()
+        with RepoCopy() as root:
+            week, geo = root / "week.json", root / "geo.json"
+            week.write_text(json.dumps(p))
+            geo.write_text(json.dumps(pages(p)))
+            out = io.StringIO()
+            with (mock.patch.object(update, "ROOT", root),
+                  contextlib.redirect_stdout(out),
+                  contextlib.redirect_stderr(io.StringIO())):
+                self.assertEqual(update.main(["--input", str(week), "--pages", str(geo),
+                                              "--dry-run"]), 0)
+            self.assertIn("### Biggest markets this week", out.getvalue())
+            self.assertFalse((root / "data").exists())
+            self.assertEqual((root / "README.md").read_text(), (ROOT / "README.md").read_text())
 
     def test_a_missing_input_file_is_a_refusal_with_a_message(self):
         p = payload()

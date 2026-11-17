@@ -16,6 +16,7 @@ computedAt that is not a real calendar date (it names the history file).
 Standard library only. Usage:
 
     python3 scripts/update.py                 # fetch from the API
+    python3 scripts/update.py --dry-run       # print the block, write nothing
     python3 scripts/update.py --input week.json --pages geo.json  # offline rebuild
 """
 from __future__ import annotations
@@ -249,6 +250,39 @@ def chats_cell(item: dict, limit: int = 3) -> str:
 
 # --------------------------------------------------------------------------- render
 
+def coverage(payload: dict) -> str | None:
+    """What the reader covered, when the payload reports it.
+
+    Counts grow whenever more chats are read, which is why the README compares
+    shares. Saying the coverage out loud lets a reader see how much of a week's
+    movement is the reader's own reach rather than demand.
+    """
+    obs = payload.get("observation")
+    if not isinstance(obs, dict):
+        return None
+    cur, prev = obs.get("current7d"), obs.get("prev7d")
+    if not isinstance(cur, dict):
+        return None
+    observed, labeled = cur.get("messagesObserved"), cur.get("messagesLabeled")
+    if not isinstance(observed, int) or not isinstance(labeled, int) or observed <= 0:
+        return None
+    line = (f"**What the reader saw** — {fmt(observed)} messages scanned this week, "
+            f"{fmt(labeled)} of them requests ({rate(cur, observed, labeled)})")
+    if isinstance(prev, dict):
+        p_obs, p_lab = prev.get("messagesObserved"), prev.get("messagesLabeled")
+        if isinstance(p_obs, int) and isinstance(p_lab, int) and p_obs > 0:
+            line += (f", a week earlier {fmt(p_lab)} of {fmt(p_obs)} "
+                     f"({rate(prev, p_obs, p_lab)})")
+    return line + ". Counts follow coverage, so compare shares, not totals."
+
+
+def rate(window: dict, observed: int, labeled: int) -> str:
+    pct = window.get("coveragePct")
+    if isinstance(pct, (int, float)) and not isinstance(pct, bool):
+        return f"{pct:.1f}%"
+    return f"{labeled / observed * 100:.1f}%"
+
+
 def render(payload: dict, items: list[dict], pages: set[tuple[str, str]]) -> str:
     rs = rows(items)
     day = snapshot_day(payload)
@@ -263,6 +297,10 @@ def render(payload: dict, items: list[dict], pages: set[tuple[str, str]]) -> str
     w(f"**Updated {day}** · **{fmt(total)} requests** in the last 7 days · "
       f"**{len(by_country)} countries** · **{len(rs)} markets** (country × niche)")
     w("")
+    seen = coverage(payload)
+    if seen:
+        w(seen)
+        w("")
     w("### Biggest markets this week")
     w("")
     w("| # | Market | Requests, 7 days | Share of the country | Chats with requests | Where people ask |")
@@ -400,6 +438,8 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--input", type=Path, help="build from a saved payload instead of the API")
     ap.add_argument("--pages", type=Path, help="saved page map to go with --input")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="validate and print the block, write nothing")
     args = ap.parse_args(argv)
     if bool(args.input) != bool(args.pages):
         ap.error("--input and --pages go together: a payload without its page map "
@@ -411,6 +451,14 @@ def main(argv: list[str] | None = None) -> int:
         else:
             payload = as_payload(fetch(SOURCE))
             geo = fetch(PAGES)
+        if args.dry_run:
+            items, pages = validate(payload), page_set(geo)
+            day = snapshot_day(payload)
+            print(render(payload, items, pages))
+            newest = newest_snapshot()
+            note = f" (older than {newest}, a run would refuse it)" if newest and day < newest else ""
+            print(f"dry run for {day}: {len(items)} markets, nothing written{note}", file=sys.stderr)
+            return 0
         day = build(payload, geo)
     except PayloadError as e:
         print(f"refused to publish: {e}", file=sys.stderr)
