@@ -9,22 +9,28 @@ Fetches https://tgden.com/api/v1/intent/week, validates it, and writes:
   README.md                   the generated block between the index markers
 
 A broken or thin payload stops the run before anything is written: an empty
-table that replaces yesterday's index is worse than a skipped day.
+table that replaces yesterday's index is worse than a skipped day. The same
+goes for a payload whose day is older than the newest snapshot, and for a
+computedAt that is not a real calendar date (it names the history file).
 
 Standard library only. Usage:
 
     python3 scripts/update.py                 # fetch from the API
+    python3 scripts/update.py --dry-run       # print the block, write nothing
     python3 scripts/update.py --input week.json --pages geo.json  # offline rebuild
 """
 from __future__ import annotations
 
 import argparse
 import csv
+import datetime as dt
 import io
 import json
 import os
+import re
 import sys
 import tempfile
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -54,9 +60,11 @@ COUNTRIES = {
     "eg": "Egypt", "es": "Spain", "fi": "Finland", "fr": "France", "gb": "United Kingdom",
     "ge": "Georgia", "gr": "Greece", "hu": "Hungary", "id": "Indonesia", "ie": "Ireland",
     "il": "Israel", "in": "India", "it": "Italy", "jp": "Japan", "kg": "Kyrgyzstan",
+    "kh": "Cambodia",
     "kr": "South Korea", "kz": "Kazakhstan", "lk": "Sri Lanka", "lt": "Lithuania",
     "lv": "Latvia", "ma": "Morocco", "md": "Moldova", "me": "Montenegro", "mv": "Maldives",
-    "mx": "Mexico", "my": "Malaysia", "nl": "Netherlands", "no": "Norway", "ph": "Philippines",
+    "mx": "Mexico", "my": "Malaysia", "ng": "Nigeria", "nl": "Netherlands", "no": "Norway",
+    "ph": "Philippines",
     "pl": "Poland", "pt": "Portugal", "qa": "Qatar", "ro": "Romania", "rs": "Serbia",
     "ru": "Russia", "sa": "Saudi Arabia", "sc": "Seychelles", "se": "Sweden",
     "sg": "Singapore", "sk": "Slovakia", "th": "Thailand", "tj": "Tajikistan",
@@ -75,10 +83,19 @@ class PayloadError(ValueError):
 def fetch(url: str, timeout: int = 60) -> object:
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT,
                                                "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        if resp.status != 200:
-            raise PayloadError(f"{url} answered HTTP {resp.status}")
-        return json.loads(resp.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            body = resp.read()
+            if resp.status != 200:
+                raise PayloadError(f"{url} answered HTTP {resp.status}")
+    except urllib.error.HTTPError as e:
+        raise PayloadError(f"{url} answered HTTP {e.code}") from None
+    except (urllib.error.URLError, OSError) as e:
+        raise PayloadError(f"{url} is unreachable: {getattr(e, 'reason', e)}") from None
+    try:
+        return json.loads(body.decode("utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as e:
+        raise PayloadError(f"{url} did not answer JSON: {e}") from None
 
 
 def page_set(geo: object) -> set[tuple[str, str]]:
@@ -93,24 +110,68 @@ def page_set(geo: object) -> set[tuple[str, str]]:
             if isinstance(c, dict) and str(c.get("country", "")).lower() != "ge"}
 
 
-def validate(payload: object) -> list[dict]:
-    if not isinstance(payload, dict):
+DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
+
+
+def snapshot_day(payload: dict) -> str:
+    """The day this payload describes, checked before it becomes a filename.
+
+    computedAt names data/history/<day>.json, so anything that is not a real
+    calendar date is refused here instead of creating a file called "9999-99-99"
+    or a directory named after whatever the API sent.
+    """
+    raw = payload.get("computedAt")
+    if not isinstance(raw, str) or len(raw) < 10 or not DATE_RE.fullmatch(raw[:10]):
+        raise PayloadError(f"computedAt is not an ISO date: {str(raw)[:32]!r}")
+    try:
+        return dt.date.fromisoformat(raw[:10]).isoformat()
+    except ValueError:
+        raise PayloadError(f"computedAt is not a calendar date: {raw[:32]!r}") from None
+
+
+def count(item: dict, key: str) -> int:
+    """A non-negative int field, with bools refused (True is an int in Python)."""
+    value = item.get(key)
+    if isinstance(value, bool) or not isinstance(value, int) or value < 0:
+        raise PayloadError(f"{key} is not a non-negative int: {item!r:.120}")
+    return value
+
+
+def as_payload(value: object) -> dict:
+    if not isinstance(value, dict):
         raise PayloadError("payload is not an object")
+    return value
+
+
+def validate(payload: object) -> list[dict]:
+    payload = as_payload(payload)
     items = payload.get("items")
     if not isinstance(items, list) or len(items) < MIN_ITEMS:
         n = len(items) if isinstance(items, list) else "no"
         raise PayloadError(f"{n} items, need at least {MIN_ITEMS}")
-    if not str(payload.get("computedAt", ""))[:10].count("-") == 2:
-        raise PayloadError("computedAt missing")
+    snapshot_day(payload)
+    seen: set[tuple[str, str]] = set()
     for i in items:
+        if not isinstance(i, dict):
+            raise PayloadError(f"item is not an object: {i!r:.120}")
         for key in ("country", "niche"):
             if not isinstance(i.get(key), str) or not i[key]:
                 raise PayloadError(f"item without {key}: {i!r:.120}")
+        market_key = (i["country"].lower(), i["niche"])
+        if market_key in seen:
+            # Two rows for one market double its country's denominator and print twice.
+            raise PayloadError(f"duplicate market: {i['country']}/{i['niche']}")
+        seen.add(market_key)
         for key in ("requests7d", "requestsPrev7d", "requests30d", "chats"):
-            if not isinstance(i.get(key), int) or i[key] < 0:
-                raise PayloadError(f"{key} is not a non-negative int: {i!r:.120}")
-        if not isinstance(i.get("topChats", []), list):
+            count(i, key)
+        chats = i.get("topChats", [])
+        if not isinstance(chats, list):
             raise PayloadError("topChats is not a list")
+        for c in chats:
+            if not isinstance(c, dict):
+                raise PayloadError(f"topChats entry is not an object: {c!r:.80}")
+            if c.get("username") is not None and not isinstance(c["username"], str):
+                raise PayloadError(f"topChats username is not a string: {c!r:.80}")
     return items
 
 
@@ -189,9 +250,42 @@ def chats_cell(item: dict, limit: int = 3) -> str:
 
 # --------------------------------------------------------------------------- render
 
+def coverage(payload: dict) -> str | None:
+    """What the reader covered, when the payload reports it.
+
+    Counts grow whenever more chats are read, which is why the README compares
+    shares. Saying the coverage out loud lets a reader see how much of a week's
+    movement is the reader's own reach rather than demand.
+    """
+    obs = payload.get("observation")
+    if not isinstance(obs, dict):
+        return None
+    cur, prev = obs.get("current7d"), obs.get("prev7d")
+    if not isinstance(cur, dict):
+        return None
+    observed, labeled = cur.get("messagesObserved"), cur.get("messagesLabeled")
+    if not isinstance(observed, int) or not isinstance(labeled, int) or observed <= 0:
+        return None
+    line = (f"**What the reader saw** — {fmt(observed)} messages scanned this week, "
+            f"{fmt(labeled)} of them requests ({rate(cur, observed, labeled)})")
+    if isinstance(prev, dict):
+        p_obs, p_lab = prev.get("messagesObserved"), prev.get("messagesLabeled")
+        if isinstance(p_obs, int) and isinstance(p_lab, int) and p_obs > 0:
+            line += (f", a week earlier {fmt(p_lab)} of {fmt(p_obs)} "
+                     f"({rate(prev, p_obs, p_lab)})")
+    return line + ". Counts follow coverage, so compare shares, not totals."
+
+
+def rate(window: dict, observed: int, labeled: int) -> str:
+    pct = window.get("coveragePct")
+    if isinstance(pct, (int, float)) and not isinstance(pct, bool):
+        return f"{pct:.1f}%"
+    return f"{labeled / observed * 100:.1f}%"
+
+
 def render(payload: dict, items: list[dict], pages: set[tuple[str, str]]) -> str:
     rs = rows(items)
-    day = str(payload["computedAt"])[:10]
+    day = snapshot_day(payload)
     total = sum(r["requests7d"] for r in rs)
     by_country: dict[str, list[dict]] = {}
     for r in rs:
@@ -203,6 +297,10 @@ def render(payload: dict, items: list[dict], pages: set[tuple[str, str]]) -> str
     w(f"**Updated {day}** · **{fmt(total)} requests** in the last 7 days · "
       f"**{len(by_country)} countries** · **{len(rs)} markets** (country × niche)")
     w("")
+    seen = coverage(payload)
+    if seen:
+        w(seen)
+        w("")
     w("### Biggest markets this week")
     w("")
     w("| # | Market | Requests, 7 days | Share of the country | Chats with requests | Where people ask |")
@@ -297,11 +395,26 @@ def write_atomic(path: Path, text: str) -> None:
         raise
 
 
-def build(payload: dict, geo: object, root: Path = ROOT) -> str:
+def newest_snapshot(root: Path | None = None) -> str | None:
+    """The latest day already published, if any."""
+    root = ROOT if root is None else Path(root)
+    history = root / "data" / "history"
+    if not history.is_dir():
+        return None
+    days = [p.stem for p in history.glob("*.json") if DATE_RE.fullmatch(p.stem)]
+    return max(days) if days else None
+
+
+def build(payload: dict, geo: object, root: Path | None = None) -> str:
     """Validate first, render everything in memory, then write. Returns the day."""
+    root = ROOT if root is None else Path(root)
     items = validate(payload)
     pages = page_set(geo)
-    day = str(payload["computedAt"])[:10]
+    day = snapshot_day(payload)
+    newest = newest_snapshot(root)
+    if newest and day < newest:
+        # A cached or backdated payload must not rewrite a newer day's numbers.
+        raise PayloadError(f"payload is for {day}, older than the newest snapshot {newest}")
     readme_path = root / "README.md"
     readme = splice(readme_path.read_text(encoding="utf-8"), render(payload, items, pages))
     raw = json.dumps(payload, ensure_ascii=False, indent=1) + "\n"
@@ -312,17 +425,40 @@ def build(payload: dict, geo: object, root: Path = ROOT) -> str:
     return day
 
 
+def load(path: Path, what: str) -> object:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except OSError as e:
+        raise PayloadError(f"cannot read the {what} {path}: {e}") from None
+    except json.JSONDecodeError as e:
+        raise PayloadError(f"the {what} {path} is not JSON: {e}") from None
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--input", type=Path, help="build from a saved payload instead of the API")
     ap.add_argument("--pages", type=Path, help="saved page map to go with --input")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="validate and print the block, write nothing")
     args = ap.parse_args(argv)
+    if bool(args.input) != bool(args.pages):
+        ap.error("--input and --pages go together: a payload without its page map "
+                 "would publish every market unlinked")
     try:
         if args.input:
-            payload = json.loads(args.input.read_text(encoding="utf-8"))
-            geo = json.loads(args.pages.read_text(encoding="utf-8")) if args.pages else []
+            payload = as_payload(load(args.input, "payload"))
+            geo = load(args.pages, "page map")
         else:
-            payload, geo = fetch(SOURCE), fetch(PAGES)
+            payload = as_payload(fetch(SOURCE))
+            geo = fetch(PAGES)
+        if args.dry_run:
+            items, pages = validate(payload), page_set(geo)
+            day = snapshot_day(payload)
+            print(render(payload, items, pages))
+            newest = newest_snapshot()
+            note = f" (older than {newest}, a run would refuse it)" if newest and day < newest else ""
+            print(f"dry run for {day}: {len(items)} markets, nothing written{note}", file=sys.stderr)
+            return 0
         day = build(payload, geo)
     except PayloadError as e:
         print(f"refused to publish: {e}", file=sys.stderr)
